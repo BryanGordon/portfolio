@@ -1,0 +1,18 @@
+[
+  {
+    "imageSkill": "css-logo.png",
+    "skillAlt": "CSS"
+  },
+  {
+    "imageSkill": "html-logo.png",
+    "skillAlt": "HTML"
+  },
+  {
+    "imageSkill": "js-logo.png",
+    "skillAlt": "JavaScript"
+  },
+  {
+    "imageSkill": "react-logo.png",
+    "skillAlt": "React"  
+  }
+]

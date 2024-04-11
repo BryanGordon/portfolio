@@ -1,0 +1,36 @@
+footer {
+  padding-bottom: 1rem;
+  background-color: #36382e ;
+}
+
+.container-footer {
+  padding: 1rem 5rem 0 5rem;
+  text-align: center;
+}
+
+.footer-autor {
+  color:  #ffffff;
+  display: inline;
+  cursor: pointer;
+}
+
+.link-footer {
+  padding-left: 1rem;
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-autor {
+  text-decoration: none;
+}
+
+.footer-autor:hover {
+  color: #7e7efb;
+  transition: all ease 0.25s;
+}
+
+.link-footer:hover {
+  color: #7e7efb;
+  transition: all ease 0.25s;
+}

@@ -1,0 +1,35 @@
+.container-titles {
+  padding: 1rem 0 3rem 5rem;
+}
+
+.cv-titles {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.answer {
+  font-weight: normal;
+  display: inline;
+}
+
+@media screen and (max-width: 800px), (max-width: 900px), (max-width: 1000px) {
+  .container-titles {
+    padding: 1rem 0 3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 300px), (max-width: 400px), (max-width: 500px) {
+  .section-cv {
+    padding-top: 2rem;
+  }
+  
+  .container-titles {
+    padding: 1rem 0 3rem 2rem;
+  }
+
+  .answer {
+    display: block;
+    padding-right: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.nav-container {
+  padding: 0;
+}
+
+.container-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+
+}
+
+.navbar-items {
+  list-style: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #7e7efb;
+  transition: all 0.2s ease;
+}
+
