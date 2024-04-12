@@ -9,7 +9,7 @@ export function Navbar () {
           <NavLink to='/' className='link'>Home</NavLink>
         </li>
         <li className='navbar-items'>
-          <NavLink to='/cv' className='link'>CV</NavLink>
+          <NavLink to='/personal-information' className='link'>Personal Information</NavLink>
         </li>
       </ul>
     </nav>
