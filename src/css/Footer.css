@@ -14,8 +14,15 @@ footer {
   cursor: pointer;
 }
 
-.link-footer {
+.link-footer-linke {
   padding-left: 1rem;
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-footer-github {
+  padding-left: 55px;
   position: absolute;
   color: #ffffff;
   text-decoration: none;
@@ -30,7 +37,7 @@ footer {
   transition: all ease 0.25s;
 }
 
-.link-footer:hover {
+.link-footer-linke:hover {
   color: #7e7efb;
   transition: all ease 0.25s;
 }
