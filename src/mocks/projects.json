@@ -1,14 +1,14 @@
 [
   {
-    "titleProject": "Bakery",
+    "titleProject": "Dronify",
     "imageProject": "bakery.png",
-    "projectAlt": "Bakery-project",
+    "projectAlt": "Dronify",
     "linkProject": "https://bakery-project1.netlify.app/"
   },
   {
     "titleProject": "Bakery 2.0",
     "imageProject": "bakery2.png",
-    "projectAlt": "Bakery2-project",
+    "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/"
   },
   {
@@ -18,15 +18,15 @@
     "linkProject": "https://parrilla-3bfcb7.netlify.app/"
   },
   {
-    "titleProject": "Mouse follower",
-    "imageProject": "mouse-follower.png",
-    "projectAlt": "MouseFollower-project",
-    "linkProject": "https://mouse-follower-4a608f.netlify.app/"
+    "titleProject": "Bakery",
+    "imageProject": "bakery.png",
+    "projectAlt": "Bakery-project",
+    "linkProject": "https://bakery-project1.netlify.app/"
   },
   {
-    "titleProject": "Tic tac toe",
+    "titleProject": "JavaScript Quiz",
     "imageProject": "tic-tac-toe.png",
-    "imageAlt": "TicTacToe-project",
+    "imageAlt": "JSQuiz-project",
     "linkProject": "https://tic-tac-toe-10fb8e.netlify.app/"
   }
 ]
