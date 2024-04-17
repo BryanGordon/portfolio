@@ -73,7 +73,7 @@ export function PersonalInformation () {
 
       <h2>Experience</h2>
       <div className='container-titles'>
-        <p className='answer'> One year experince in personal projects</p>
+        <p className='answer'> +2.5 year development personal projects and working with customers.</p>
       </div>
 
     </section>
