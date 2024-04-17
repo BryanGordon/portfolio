@@ -1,4 +1,5 @@
 import '../css/Projects.css'
+import { IconBrandGithub } from '@tabler/icons-react'
 import ProjectsData from '../mocks/projects.json'
 import { useState, useEffect } from 'react'
 
@@ -34,6 +35,12 @@ export function Projects () {
           }
         </ul>
       </div>
+      <p className='more-info'>
+        If you want see all my projects, you can click the icon next to
+        <a target='_blank' rel='noreferrer' href='https://github.com/BryanGordon'>
+          <IconBrandGithub className='icon-pro' />
+        </a>
+      </p>
     </section>
   )
 }
