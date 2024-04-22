@@ -29,7 +29,7 @@ export function Projects () {
                   </a>
                 </div>
                 <label className='project-title'>{item.titleProject}</label>
-                <p className='description-project'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus esse quaerat totam, et voluptate iusto ipsa, mollitia perspiciatis sapiente autem atque rerum sit, dicta ipsum iure exercitationem voluptas blanditiis officia!</p>
+                <p className='description-project'>{item.description}</p>
               </li>
             ))
           }
