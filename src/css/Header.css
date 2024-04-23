@@ -66,10 +66,16 @@
     margin: 0 auto;
   }
 
+  .icon {
+    padding: 0;
+    display: block;
+   }
+
 }
 
 @media screen and (max-width: 300px) {
   .header-info {
     padding: 1.2rem 0.9rem 1.2rem 0.9rem;
   }
+
 }
