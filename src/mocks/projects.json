@@ -1,33 +1,38 @@
 [
   {
-    "titleProject": "Bakery",
-    "imageProject": "bakery.png",
-    "projectAlt": "Bakery-project",
-    "linkProject": "https://bakery-project1.netlify.app/"
+    "titleProject": "Dronify",
+    "imageProject": "dronify.jpg",
+    "projectAlt": "Dronify",
+    "linkProject": "https://dronify-demo.netlify.app",
+    "description": "Web page made for a friend use. This page was designed for save presets of drons. Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
   },
   {
     "titleProject": "Bakery 2.0",
-    "imageProject": "bakery2.png",
-    "projectAlt": "Bakery2-project",
-    "linkProject": "https://bakery2-37af84.netlify.app/"
+    "imageProject": "bakery2.jpg",
+    "projectAlt": "BakeryV2-project",
+    "linkProject": "https://bakery2-37af84.netlify.app/",
+    "description": "A better design for Bakery page. This version includes navigation and was developed with React, JavaScript and CSS."
   },
   {
     "titleProject": "Restaurant",
-    "imageProject": "restaurant-menu.png",
-    "imageAlt": "Restaurant-project",
-    "linkProject": "https://parrilla-3bfcb7.netlify.app/"
+    "imageProject": "restaurant-menu.jpg",
+    "projectAlt": "Restaurant-project",
+    "linkProject": "https://parrilla-3bfcb7.netlify.app/",
+    "description": "This page was designed for a restaurant menu use. Developed with React, JavaScript and CSS."
   },
   {
-    "titleProject": "Mouse follower",
-    "imageProject": "mouse-follower.png",
-    "projectAlt": "MouseFollower-project",
-    "linkProject": "https://mouse-follower-4a608f.netlify.app/"
+    "titleProject": "Bakery",
+    "imageProject": "bakery.jpg",
+    "projectAlt": "Bakery-project",
+    "linkProject": "https://bakery-project1.netlify.app/",
+    "description": "A simple page made for a Bakery store. Developed with React, JavaScript and CSS."
   },
   {
-    "titleProject": "Tic tac toe",
-    "imageProject": "tic-tac-toe.png",
-    "imageAlt": "TicTacToe-project",
-    "linkProject": "https://tic-tac-toe-10fb8e.netlify.app/"
+    "titleProject": "JavaScript Quiz",
+    "imageProject": "quiz.jpg",
+    "projectAlt": "JSQuiz-project",
+    "linkProject": "js-quiz-4ac988.netlify.app",
+    "description": "This web page was created for educational purpose, you can answer JS questions and see yours correct and wrong answers. Developed with TypeScript, Material UI and Zustand."
   }
 ]
 

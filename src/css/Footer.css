@@ -14,11 +14,19 @@ footer {
   cursor: pointer;
 }
 
-.link-footer {
-  padding-left: 1rem;
+.icons {
+  display: inline;
   position: absolute;
+  padding-left: 10px;
+}
+
+.link-footer-linke {
   color: #ffffff;
-  text-decoration: none;
+  padding-right: 15px;
+}
+
+.link-footer-github {
+  color: #ffffff;
 }
 
 .link-autor {
@@ -30,7 +38,12 @@ footer {
   transition: all ease 0.25s;
 }
 
-.link-footer:hover {
+.link-footer-linke:hover {
   color: #7e7efb;
-  transition: all ease 0.25s;
+  transition: all ease 0.3s;
+}
+
+.link-footer-github:hover {
+  color: #7e7efb;
+  transition: all ease 0.3s;
 }

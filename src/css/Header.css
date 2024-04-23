@@ -23,7 +23,30 @@
 
 .navbar-container {
   padding: 1rem 0rem 1rem 0rem;
-  
+}
+
+.icon {
+  display: inline;
+  position: absolute;
+  padding-left: 10px;
+}
+
+.icon-linke {
+  padding-right: 10px;
+  color:#ffffff
+}
+
+.icon-git {
+  color: #ffffff;
+}
+
+.icon-linke:hover {
+  color: #7e7efb;
+  transition: all ease 0.3s;
+}
+
+.icon-git:hover {
+  color: #7e7efb;
 }
 
 @media screen and (max-width: 400px), (max-width: 500px) {
@@ -43,10 +66,16 @@
     margin: 0 auto;
   }
 
+  .icon {
+    padding: 0;
+    display: block;
+   }
+
 }
 
 @media screen and (max-width: 300px) {
   .header-info {
     padding: 1.2rem 0.9rem 1.2rem 0.9rem;
   }
+
 }

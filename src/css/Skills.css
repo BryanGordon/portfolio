@@ -16,11 +16,12 @@
 
 .skill-cards {
   border-radius: 15px;
+  filter: drop-shadow(0 0 20px 0  rgb(29, 29, 28));
+
 }
 
 .skill-cards:hover {
   animation:card 0.2s  ease forwards;
-  background-color: #dfe4ff;
 }
 
 @keyframes card {
@@ -29,7 +30,7 @@
     transform: scale(1);
   }
   100% {
-    box-shadow:0 0 20px 0  rgb(29, 29, 28);
+    filter: drop-shadow(0 10px 0  rgba(29, 29, 28, 0.2));
     transform: scale(1.02);
   }
 }

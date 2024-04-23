@@ -1,10 +1,10 @@
 import '../css/Cv.css'
 
-export function Cv () {
+export function PersonalInformation () {
   return (
     <section className='section-cv'>
-      <h1>Curriculum</h1>
-      <h2>Personal information</h2>
+      <h1>Personal information</h1>
+      <h2>Basic information</h2>
       <div className='container-titles'>
         <label className='cv-titles'>Full name:
           <p className='answer'> Bryan Armando Gordon Echeverria </p>
@@ -73,7 +73,7 @@ export function Cv () {
 
       <h2>Experience</h2>
       <div className='container-titles'>
-        <p className='answer'> One year experince in personal projects</p>
+        <p className='answer'> +2.5 year development personal projects and working with customers.</p>
       </div>
 
     </section>
