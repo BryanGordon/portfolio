@@ -8,7 +8,7 @@ export function Header () {
     <header id='start'>
       <div className='info-container'>
         <p className='header-info'>
-          Hello! My name is Bryan Gordon, front end developer with +2 years of experience developing websites. I'm form Ecuador and I speak Spanish and English.
+          Hello! My name is Bryan Gordon, front end developer with +2.5 years of experience developing websites. I'm form Ecuador and I speak Spanish and English.
           <div className='icon'>
             <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/bryan-gordon-9ab303220'>
               <IconBrandLinkedin className='icon-linke' />
