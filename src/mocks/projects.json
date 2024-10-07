@@ -21,18 +21,25 @@
     "description": "This page was designed for a restaurant menu use. Developed with React, JavaScript and CSS."
   },
   {
+    "titleProject": "Transport Web",
+    "imageProject": "transport.jpg",
+    "projectAlt": "Transport web page",
+    "linkProject": "https://transporte-90a965.netlify.app",
+    "description": "This is SPA for a transport enterprise purpose. Developed with React, CSS and TailwindCSS."
+  },
+  {
     "titleProject": "Bakery",
     "imageProject": "bakery.jpg",
     "projectAlt": "Bakery-project",
     "linkProject": "https://bakery-project1.netlify.app/",
-    "description": "A simple page made for a Bakery store. Developed with React, JavaScript and CSS."
+    "description": "A simple web page made for a Bakery store. Developed with React, JavaScript and CSS."
   },
   {
-    "titleProject": "JavaScript Quiz",
-    "imageProject": "quiz.jpg",
-    "projectAlt": "JSQuiz-project",
-    "linkProject": "js-quiz-4ac988.netlify.app",
-    "description": "This web page was created for educational purpose, you can answer JS questions and see yours correct and wrong answers. Developed with TypeScript, Material UI and Zustand."
+    "titleProject":"Rick and Morty fan page",
+    "imageProject":"rickmorty-page.jpg",
+    "projectAlt":"Web page for Rick and Morty fans ",
+    "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
+    "description":"Web page about Rick and Morty. You can see all characters. Developed with React, TypeScript, CSS."
   }
 ]
 
