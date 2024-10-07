@@ -55,3 +55,7 @@ with JavaScript, CSS, HTML. Also developed with other technologies such as Tailw
 PostgreSQL, and MySQL.
 
 I have experience developing all types of websites and web applications, with the aim of providing a good usability and user experience.
+
+---- Description de proyecto de rick and morty 
+ 
+ Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places. Developed with React, React Context, TypeScript, CSS.
