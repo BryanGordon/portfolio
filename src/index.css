@@ -28,8 +28,17 @@ h2 {
 
 p {
   color: #36382e;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   font-size: 1.1em;
+}
+
+span {
+  color: #7e7efb;
+}
+
+.markBody {
+  color: black;
+  font-weight: 600;
 }
 
 main {
