@@ -26,3 +26,6 @@
   transition: all 0.2s ease;
 }
 
+.link.active {
+  color: #7e7efb;
+}
