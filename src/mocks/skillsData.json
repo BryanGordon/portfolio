@@ -1,18 +1,18 @@
 [
   {
-    "imageSkill": "css-logo.png",
+    "imageSkill": "css-logo.webp",
     "skillAlt": "CSS"
   },
   {
-    "imageSkill": "html-logo.png",
+    "imageSkill": "html-logo.webp",
     "skillAlt": "HTML"
   },
   {
-    "imageSkill": "js-logo.png",
+    "imageSkill": "js-logo.webp",
     "skillAlt": "JavaScript"
   },
   {
-    "imageSkill": "react-logo.png",
+    "imageSkill": "react-logo.webp",
     "skillAlt": "React"  
   }
 ]
