@@ -7,7 +7,7 @@ export function PersonalInformation () {
 
       <h2>Experience</h2>
       <div className='container-titles'>
-        <p className='answer'> +2.5 year development personal projects and working with customers.</p>
+        <p className='answer'> +3 year development personal projects and working with customers.</p>
       </div>
 
       <h2>Certifications</h2>
@@ -56,26 +56,12 @@ export function PersonalInformation () {
         <label className='cv-titles'>Full name:
           <p className='answer'> Bryan Armando Gordon Echeverria </p>
         </label>
-        <label className='cv-titles'>Date and place of birth:
-          <p className='answer'> Agust 2th of 1998, Ibarra - Ecuador</p>
-        </label>
-        <label className='cv-titles'>Civil status:
-          <p className='answer'> Single</p>
-        </label>
         <label className='cv-titles'>Address:
           <p className='answer'> Quiroga - Cotacachi - Imbabura - Ecuador</p>
-        </label>
-        <label className='cv-titles'>Phone number:
-          <p className='answer'> +593 997191282</p>
         </label>
         <label className='cv-titles'>Email:
           <p className='answer'> bryanbge92@gmail.com / bryanbge98@outlook.com</p>
         </label>
-      </div>
-
-      <h2>Degrees</h2>
-      <div className='container-titles'>
-        <p className='answer'> High School Diploma</p>
       </div>
 
     </section>
