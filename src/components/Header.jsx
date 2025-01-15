@@ -1,7 +1,7 @@
 import '../css/Header.css'
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react'
 import { Navbar } from './Navbar'
-import imgDev from '../assets/image-hap-cv.jpg'
+import imgDev from '../assets/image-hap-cv.webp'
 
 export function Header () {
   return (
