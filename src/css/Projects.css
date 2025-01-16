@@ -4,28 +4,13 @@
   padding: 0;
 }
 
-.projects {
-  list-style: none;
-}
-
 .description-project {
   padding: 0 100px;
 }
 
-.img-container-projects {
-  padding-top: 2rem;
-}
-
-.img-container-projects img {
-  width: 500px;
-  height: 280px;
-  margin-left: 70px;
-
-}
-
 .project-title {
-  max-width: 100%;
-  display: block;
+  color: #36382e;
+  min-width: 100%;
   text-align: center;
   padding-top: 32px;
   font-weight: bold;
@@ -33,6 +18,8 @@
 
 .image-project {
   border-radius: 50px;
+  min-width: 500px;
+  height: 280px;
 }
 
 .image-project:hover {
