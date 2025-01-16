@@ -32,6 +32,10 @@ p {
   font-size: 1.1em;
 }
 
+li {
+  list-style: none;
+}
+
 span {
   color: #7e7efb;
 }
