@@ -9,15 +9,16 @@ body {
    margin: 0;
 }
 
-header {
-  background-color: #36382e;
+section {
+  margin-bottom: 80px;
 }
 
 h1 {
   color:  #221a4c;
-  text-align: center;
-  padding-bottom: 3rem;
   width: 100%;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 1.5rem;
 }
 
@@ -30,6 +31,10 @@ p {
   color: #36382e;
   line-height: 1.8rem;
   font-size: 1.1em;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
