@@ -23,17 +23,17 @@ export function Projects () {
         <h1>Projects</h1>
       </header>
 
-      <article className='projects-content'>
+      <article>
         <ul className='container-projects'>
 
-          <li>
+          <li className='project'>
             <picture className='img-container-projects'>
               <a rel='noreferrer' href='#'>
                 <img className='image-project' src={Bakery} alt='imagen' />
               </a>
             </picture>
 
-            <div>
+            <div className='project-info-container'>
               <span className='project-title'>Bakery</span>
               <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
             </div>
@@ -46,8 +46,10 @@ export function Projects () {
               </a>
             </div>
 
-            <label className='project-title'>Bakery</label>
-            <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
+            <div className='project-info-container'>
+              <span className='project-title'>Bakery</span>
+              <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
+            </div>
           </li>
 
         </ul>
