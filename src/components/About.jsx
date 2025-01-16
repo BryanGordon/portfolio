@@ -10,7 +10,7 @@ export function About () {
         </p>
 
         <p>
-          knowledge in software development, web development, video game development and video game testing. I have <span className='markBody'>+3 years of experience developing</span> all types of <span className='markBody'>websites and web applications</span>, with the aim of providing a good usability and user experience.
+          knowledge in software development, web development, video game development and video game testing. I have <span className='markBody'>+3 years of experience developing</span> all types of <span className='markBody'>websites</span>, with the aim of providing a good usability and user experience.
         </p>
 
         <p>
