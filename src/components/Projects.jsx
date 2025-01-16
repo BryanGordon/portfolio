@@ -1,9 +1,11 @@
 import '../css/Projects.css'
 import { IconBrandGithub } from '@tabler/icons-react'
-import ProjectsData from '../mocks/projects.json'
-import { useState, useEffect } from 'react'
+import Bakery from '/bakery.webp'
+// import ProjectsData from '../mocks/projects.json'
+// import { useState, useEffect } from 'react'
 
 export function Projects () {
+/*
   const [data, setData] = useState([])
 
   const getData = () => {
@@ -14,32 +16,42 @@ export function Projects () {
   useEffect(() => {
     getData()
   }, [])
-
+*/
   return (
     <section className='section-projects'>
-      <h1>Projects</h1>
+      <header>
+        <h1>Projects</h1>
+      </header>
 
-      <div className='projects-content'>
+      <article className='projects-content'>
         <ul className='container-projects'>
-          {
 
-            data.map((item) => (
-              <li className='projects' key={item.titleProject}>
+          <li>
+            <picture className='img-container-projects'>
+              <a rel='noreferrer' href='#'>
+                <img className='image-project' src={Bakery} alt='imagen' />
+              </a>
+            </picture>
 
-                <div className='img-container-projects'>
-                  <a target='_blank' rel='noreferrer' href={item.linkProject}>
-                    <img className='image-project' src={item.imageProject} alt={item.projectAlt} />
-                  </a>
-                </div>
+            <div>
+              <span className='project-title'>Bakery</span>
+              <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
+            </div>
+          </li>
 
-                <label className='project-title'>{item.titleProject}</label>
-                <p className='description-project'>{item.description}</p>
+          <li className='projects'>
+            <div className='img-container-projects'>
+              <a target='_blank' rel='noreferrer' href='#'>
+                <img className='image-project' src={Bakery} alt='imagen' />
+              </a>
+            </div>
 
-              </li>
-            ))
-          }
+            <label className='project-title'>Bakery</label>
+            <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
+          </li>
+
         </ul>
-      </div>
+      </article>
 
       <p className='more-info'>
         If you want see all my projects, you can click the icon next to
