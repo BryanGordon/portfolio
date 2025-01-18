@@ -55,12 +55,14 @@ export function Projects () {
         </ul>
       </article>
 
-      <p className='more-info'>
-        If you want see all my projects, you can click the icon next to
-        <a target='_blank' rel='noreferrer' href='https://github.com/BryanGordon'>
-          <IconBrandGithub className='icon-pro' />
-        </a>
-      </p>
+      <article className='more-info'>
+        <p>
+          If you want see all my projects, you can click the icon next to
+          <a target='_blank' rel='noreferrer' href='https://github.com/BryanGordon'>
+            <IconBrandGithub className='icon-pro' />
+          </a>
+        </p>
+      </article>
     </section>
   )
 }
