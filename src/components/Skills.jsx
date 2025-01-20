@@ -23,19 +23,19 @@ export function Skills () {
       </header>
 
       <article className='skills-content'>
-        <picture>
+        <picture className='skill-card-container'>
           <img className='skill-cards' src={Logo} alt='img' />
         </picture>
 
-        <picture>
+        <picture className='skill-card-container'>
           <img className='skill-cards' src={Logo} alt='img' />
         </picture>
 
-        <picture>
+        <picture className='skill-card-container'>
           <img className='skill-cards' src={Logo} alt='img' />
         </picture>
 
-        <picture>
+        <picture className='skill-card-container'>
           <img className='skill-cards' src={Logo} alt='img' />
         </picture>
 
