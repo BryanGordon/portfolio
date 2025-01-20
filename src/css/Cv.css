@@ -1,5 +1,9 @@
 .container-titles {
-  padding: 1rem 0 3rem 5rem;
+  margin: 1rem 0 4rem 5rem;
+
+  & div {
+    margin-left: 20px;
+  }
 }
 
 .cv-titles {
