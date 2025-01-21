@@ -5,10 +5,9 @@ html {
 }
 
 body {
-   background-color: #eef0ff;
+   background-color: #EDEDFC;
    margin: 0;
 }
-
 section {
   margin-bottom: 80px;
 }
@@ -45,8 +44,8 @@ span {
 }
 
 .markBody {
-  color: black;
-  font-weight: 600;
+  color:black;
+  font-weight: bold;
 }
 
 main {
