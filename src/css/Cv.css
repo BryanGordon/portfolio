@@ -8,32 +8,25 @@
 
 .cv-titles {
   font-weight: bold;
-  display: block;
-  padding-bottom: 1rem;
+  color: black;
 }
 
 .answer {
-  font-weight: normal;
   display: inline;
 }
 
-@media screen and (max-width: 800px), (max-width: 900px), (max-width: 1000px) {
+.container-per {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
   .container-titles {
-    padding: 1rem 0 3rem 1rem;
+    margin-left: 3rem;
   }
 }
 
-@media screen and (max-width: 300px), (max-width: 400px), (max-width: 500px) {
-  .section-cv {
-    padding-top: 2rem;
-  }
-  
+@media  screen and (max-width: 600px) {
   .container-titles {
-    padding: 1rem 0 3rem 2rem;
-  }
-
-  .answer {
-    display: block;
-    padding-right: 1rem;
+    margin-left: 1rem;
   }
 }
