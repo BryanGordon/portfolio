@@ -26,6 +26,12 @@
   text-align: center;
 }
 
+#mark-tec {
+  margin-bottom: 30px;
+  color: #36382e;
+  font-weight: bold;
+}
+
 .project-title {
   color: #36382e;
   min-width: 100%;
