@@ -4,42 +4,48 @@
     "imageProject": "dronify.webp",
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
-    "description": "Web page made for a friend use. This page was designed for save presets of drons. Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
+    "descriptionProject": "Web page made for a friend use. This page was designed for save presets of drons.",
+    "devTecs": "Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
   },
   {
     "titleProject":"Rick and Morty fan page",
     "imageProject":"rickmorty-page.webp",
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
-    "description":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places. Developed with React, React Context, TypeScript, CSS."
+    "descriptionProject":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places.",
+    "devTecs": "Developed with React, React Context, TypeScript, CSS."
   },
   {
     "titleProject": "Bakery 2.0",
     "imageProject": "bakery2.webp",
     "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/",
-    "description": "A better design for Bakery page. This version includes navigation and was developed with React, JavaScript and CSS."
+    "descriptionProject": "A better design for Bakery page. This version includes navigation.",
+    "devTecs": "Developed with React, JavaScript and CSS."
   },
   {
     "titleProject": "Transport Web",
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "description": "This is SPA for a transport enterprise purpose. Developed with React, CSS and TailwindCSS."
+    "descriptionProject": "This is SPA for a transport enterprise purpose.",
+    "devTecs": "Developed with React, CSS and TailwindCSS."
   },
   {
     "titleProject": "Restaurant",
     "imageProject": "restaurant-menu.webp",
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
-    "description": "This page was designed for a restaurant menu use. Developed with React, JavaScript and CSS."
+    "descriptionProject": "This page was designed for a restaurant menu use.",
+    "devTecs": "Developed with React, JavaScript and CSS."
   },
   {
     "titleProject": "Bakery",
     "imageProject": "bakery.webp",
     "projectAlt": "Bakery-project",
     "linkProject": "https://bakery-project1.netlify.app/",
-    "description": "A simple web page made for a Bakery store. Developed with React, JavaScript and CSS."
+    "descriptionProject": "A simple web page made for a Bakery store.",
+    "devTecs": "Developed with React, JavaScript and CSS."
   }
 ]
 
