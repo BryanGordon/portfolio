@@ -1,11 +1,10 @@
 import '../css/Projects.css'
 import { IconBrandGithub } from '@tabler/icons-react'
-import Bakery from '/bakery.webp'
-// import ProjectsData from '../mocks/projects.json'
-// import { useState, useEffect } from 'react'
+
+import ProjectsData from '../mocks/projects.json'
+import { useState, useEffect } from 'react'
 
 export function Projects () {
-/*
   const [data, setData] = useState([])
 
   const getData = () => {
@@ -16,7 +15,7 @@ export function Projects () {
   useEffect(() => {
     getData()
   }, [])
-*/
+
   return (
     <section className='section-projects'>
       <header>
@@ -26,32 +25,23 @@ export function Projects () {
       <article>
         <ul className='container-projects'>
 
-          <li className='project'>
-            <picture className='img-container-projects'>
-              <a rel='noreferrer' href='#'>
-                <img className='image-project' src={Bakery} alt='imagen' />
-              </a>
-            </picture>
+          {
+            data.map((item) => (
+              <li key={item.titleProject} className='project'>
+                <picture className='img-container-projects'>
+                  <a target='_blank' rel='noreferrer' href={item.linkProject}>
+                    <img className='image-project' src={item.imageProject} alt={item.projectAlt} />
+                  </a>
+                </picture>
 
-            <div className='project-info-container'>
-              <span className='project-title'>Bakery</span>
-              <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
-            </div>
-          </li>
-
-          <li className='projects'>
-            <div className='img-container-projects'>
-              <a target='_blank' rel='noreferrer' href='#'>
-                <img className='image-project' src={Bakery} alt='imagen' />
-              </a>
-            </div>
-
-            <div className='project-info-container'>
-              <span className='project-title'>Bakery</span>
-              <p className='description-project'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit adipisci accusantium veritatis facere impedit delectus eaque culpa! Hic, expedita?</p>
-            </div>
-          </li>
-
+                <div className='project-info-container'>
+                  <span className='project-title'>{item.titleProject}</span>
+                  <p className='description-project'>{item.descriptionProject}</p>
+                  <span id='mark-tec' className='description-project'>{item.devTecs}</span>
+                </div>
+              </li>
+            ))
+          }
         </ul>
       </article>
 
