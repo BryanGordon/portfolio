@@ -1,10 +1,9 @@
 import '../css/Skills.css'
-import Logo from '/html-logo.webp'
-// import SkillsData from '../mocks/skillsData.json'
-// import { useState, useEffect } from 'react'
+
+import SkillsData from '../mocks/skillsData.json'
+import { useState, useEffect } from 'react'
 
 export function Skills () {
-  /*
   const [data, setData] = useState([])
 
   const getData = () => {
@@ -15,7 +14,7 @@ export function Skills () {
   useEffect(() => {
     getData()
   }, [])
-  */
+
   return (
     <section>
       <header>
@@ -23,22 +22,13 @@ export function Skills () {
       </header>
 
       <article className='skills-content'>
-        <picture className='skill-card-container'>
-          <img className='skill-cards' src={Logo} alt='img' />
-        </picture>
-
-        <picture className='skill-card-container'>
-          <img className='skill-cards' src={Logo} alt='img' />
-        </picture>
-
-        <picture className='skill-card-container'>
-          <img className='skill-cards' src={Logo} alt='img' />
-        </picture>
-
-        <picture className='skill-card-container'>
-          <img className='skill-cards' src={Logo} alt='img' />
-        </picture>
-
+        {
+          data.map((item) => (
+            <picture key={item.skillAlt} className='skill-card-container'>
+              <img className='skill-cards' src={item.imageSkill} alt={item.skillAlt} />
+            </picture>
+          ))
+        }
       </article>
 
     </section>
