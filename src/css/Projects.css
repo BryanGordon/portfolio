@@ -1,31 +1,40 @@
 .container-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-  padding: 0;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: 10px;
 }
 
-.projects {
-  list-style: none;
+.li-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-container-projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-info-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .description-project {
   padding: 0 100px;
+  text-align: center;
 }
 
-.img-container-projects {
-  padding-top: 2rem;
-}
-
-.img-container-projects img {
-  width: 500px;
-  height: 280px;
-  margin-left: 70px;
-
+#mark-tec {
+  margin-bottom: 30px;
+  color: #36382e;
+  font-weight: bold;
 }
 
 .project-title {
-  max-width: 100%;
-  display: block;
+  color: #36382e;
+  min-width: 100%;
   text-align: center;
   padding-top: 32px;
   font-weight: bold;
@@ -33,6 +42,9 @@
 
 .image-project {
   border-radius: 50px;
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
 }
 
 .image-project:hover {
@@ -41,7 +53,10 @@
 }
 
 .more-info {
-  margin: 60px 50px 80px 0;
+  margin-top: 60px;
+}
+
+.more-info p {
   width: 100%;
   text-align: center;
   font-weight: bolder;
@@ -49,7 +64,7 @@
 
 .icon-pro {
   position: absolute;
-  padding-left: 10px;
+  margin-left: 10px;
   color: #36382e;
 }
 
@@ -73,58 +88,11 @@
   .container-projects {
     grid-template-columns: 1fr;
   }
-
-  .img-container-projects img {
-    margin-left: 145px;
-  }
-
 }
 
-@media screen and (max-width: 1000px) {
-  .container-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .image-project {
-    max-width: 100%;
-  }
-
-  .img-container-projects img {
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 600px), (max-width: 800px), (max-width: 900px){
-  .container-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .img-container-projects img {
-    max-width: 100%;
-    margin-left: 25px;
-  }
-
+@media screen and (max-width: 800px), (max-width: 900px){
   .description-project {
-    padding: 0 15px 0 50px;
+    padding: 0 10px;
   }
 
-}
-
-@media screen and (max-width: 300px), (max-width: 400px), (max-width: 500px) {
-  .section-projects {
-    padding-top: 2rem;
-  }
-  .container-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .img-container-projects img {
-    max-width: 80%;
-    margin-left: 45px;
-  }
-
-  .more-info {
-    padding-left: 16px;
-    max-width: 90%;
-  }
 }

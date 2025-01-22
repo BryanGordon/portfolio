@@ -1,6 +1,5 @@
-import { IconBrandLinkedin, IconBrandGithub } from '@tabler/icons-react'
-
 import '../css/Footer.css'
+import { IconBrandLinkedin, IconBrandGithub } from '@tabler/icons-react'
 
 export function Footer () {
   return (

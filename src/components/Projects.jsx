@@ -1,5 +1,6 @@
 import '../css/Projects.css'
 import { IconBrandGithub } from '@tabler/icons-react'
+
 import ProjectsData from '../mocks/projects.json'
 import { useState, useEffect } from 'react'
 
@@ -17,36 +18,41 @@ export function Projects () {
 
   return (
     <section className='section-projects'>
-      <h1>Projects</h1>
+      <header>
+        <h1>Projects</h1>
+      </header>
 
-      <div className='projects-content'>
+      <article>
         <ul className='container-projects'>
+
           {
-
             data.map((item) => (
-              <li className='projects' key={item.titleProject}>
-
-                <div className='img-container-projects'>
+              <li key={item.titleProject} className='project'>
+                <picture className='img-container-projects'>
                   <a target='_blank' rel='noreferrer' href={item.linkProject}>
                     <img className='image-project' src={item.imageProject} alt={item.projectAlt} />
                   </a>
+                </picture>
+
+                <div className='project-info-container'>
+                  <span className='project-title'>{item.titleProject}</span>
+                  <p className='description-project'>{item.descriptionProject}</p>
+                  <span id='mark-tec' className='description-project'>{item.devTecs}</span>
                 </div>
-
-                <label className='project-title'>{item.titleProject}</label>
-                <p className='description-project'>{item.description}</p>
-
               </li>
             ))
           }
         </ul>
-      </div>
+      </article>
 
-      <p className='more-info'>
-        If you want see all my projects, you can click the icon next to
-        <a target='_blank' rel='noreferrer' href='https://github.com/BryanGordon'>
-          <IconBrandGithub className='icon-pro' />
-        </a>
-      </p>
+      <article className='more-info'>
+        <p>
+          If you want see all my projects, you can click the icon next to
+          <a target='_blank' rel='noreferrer' href='https://github.com/BryanGordon'>
+            <IconBrandGithub className='icon-pro' />
+          </a>
+        </p>
+      </article>
     </section>
   )
 }
