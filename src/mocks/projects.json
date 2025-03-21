@@ -28,7 +28,7 @@
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "descriptionProject": "This is SPA for a transport enterprise purpose.",
+    "descriptionProject": "SPA for a transport enterprise purpose.",
     "devTecs": "Developed with React, CSS and TailwindCSS."
   },
   {
@@ -40,12 +40,12 @@
     "devTecs": "Developed with React, JavaScript and CSS."
   },
   {
-    "titleProject": "Bakery",
+    "titleProject": "Gym web",
     "imageProject": "bakery.webp",
-    "projectAlt": "Bakery-project",
+    "projectAlt": "Gym-project",
     "linkProject": "https://bakery-project1.netlify.app/",
     "descriptionProject": "A simple web page made for a Bakery store.",
-    "devTecs": "Developed with React, JavaScript and CSS."
+    "devTecs": "Developed with React, TypeScript and TailwindCSS."
   }
 ]
 
