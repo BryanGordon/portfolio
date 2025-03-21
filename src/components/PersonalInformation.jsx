@@ -24,7 +24,7 @@ export function PersonalInformation () {
 
         <div className='container-per'>
           <span className='cv-titles'>Address: </span>
-          <p className='answer'>Quiroga - Cotacachi - Imbabura - Ecuador</p>
+          <p className='answer'>Cotacachi - Imbabura - Ecuador</p>
         </div>
 
         <div className='container-per'>
