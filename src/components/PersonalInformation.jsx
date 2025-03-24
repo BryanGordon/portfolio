@@ -24,7 +24,7 @@ export function PersonalInformation () {
 
         <div className='container-per'>
           <span className='cv-titles'>Address: </span>
-          <p className='answer'>Quiroga - Cotacachi - Imbabura - Ecuador</p>
+          <p className='answer'>Cotacachi - Imbabura - Ecuador</p>
         </div>
 
         <div className='container-per'>
@@ -44,6 +44,8 @@ export function PersonalInformation () {
             <p>Programa tus primeros juegos HTML5 con Javascript (8.5 hours) [2020]</p>
             <p>Aprende a desarrollar videojuegos con unity 2021 (5.5 hours) [2021]</p>
             <p>TailwindCSS from A to Z: Master TailwindCSS Quickly (1.5 hours) [2024]</p>
+            <p>Aprende Vue + Firebase Actualizado 2020 (6 hours) [2025]</p>
+            <p>Svelte desde cero (18 hours) [2025]</p>
           </div>
         </div>
 

@@ -8,6 +8,14 @@
     "devTecs": "Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
   },
   {
+    "titleProject": "Gym web",
+    "imageProject": "gym-page.webp",
+    "projectAlt": "Gym-project",
+    "linkProject": "https://gym-a4f838.netlify.app",
+    "descriptionProject": "Web page with modern design for a gym.",
+    "devTecs": "Developed with React, TypeScript and TailwindCSS."
+  },
+  {
     "titleProject":"Rick and Morty fan page",
     "imageProject":"rickmorty-page.webp",
     "projectAlt":"Web page for Rick and Morty fans ",
@@ -28,7 +36,7 @@
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "descriptionProject": "This is SPA for a transport enterprise purpose.",
+    "descriptionProject": "SPA for a transport enterprise purpose.",
     "devTecs": "Developed with React, CSS and TailwindCSS."
   },
   {
@@ -37,14 +45,6 @@
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
     "descriptionProject": "This page was designed for a restaurant menu use.",
-    "devTecs": "Developed with React, JavaScript and CSS."
-  },
-  {
-    "titleProject": "Bakery",
-    "imageProject": "bakery.webp",
-    "projectAlt": "Bakery-project",
-    "linkProject": "https://bakery-project1.netlify.app/",
-    "descriptionProject": "A simple web page made for a Bakery store.",
     "devTecs": "Developed with React, JavaScript and CSS."
   }
 ]
