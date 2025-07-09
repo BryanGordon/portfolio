@@ -1,0 +1,51 @@
+---
+import imgDev from '../assets/image-hap-cv.webp'
+---
+
+<header id="start">
+  <div class="info-container">
+    <p class="header-info">
+      Hello! My name is <strong>Bryan Gordon</strong>, front end developer with <strong>+3 years of experience</strong> developing websites. I'm form Ecuador and I speak <strong>Spanish</strong> and <strong>English</strong>.
+    </p>
+
+    <div class="container-icons">
+      <i>
+        <a target="_blank" referrerpolicy="no-referrer" href="https://www.linkedin.com/in/bryan-gordon-9ab303220">
+          Linkedin
+        </a>
+      </i>
+
+      <i>
+        <a target="_blank" referrerpolicy="no-referrer" href="https://github.com/BryanGordon">
+          Github
+        </a>
+      </i>
+
+      <img src={imgDev.src} alt="A photo of Bryan Gordon front-end developer">
+    </div>
+  </div>
+</header>
+
+<style>
+  .info-container {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-info {
+    width: 50%;
+    margin: 4rem 0.5rem 0.5rem 4rem;
+    color: #fff;
+  }
+
+  .container-icons {
+    display: flex; /** */
+    vertical-align: middle;
+  }
+
+  img {
+    height: 175px;
+    border-radius: 0.7rem;
+  }
+</style>
