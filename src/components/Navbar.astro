@@ -1,0 +1,37 @@
+---
+const currentRoute = Astro.originPathname
+---
+
+<nav>
+  <ul class="nav-container">
+    <li class="navbar-items">
+      <a href="/">Home</a>
+    </li>
+
+    <li class="navbar-items">
+      <a href="/information">Personal information</a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .navbar-items {
+    cursor: pointer;
+    padding: 0 25px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .active {
+    color: #7e7efb;
+  }
+</style>
