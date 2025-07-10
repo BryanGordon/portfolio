@@ -6,29 +6,29 @@ import imgDev from '../assets/image-hap-cv.webp'
   <div class="info-container">
     <p class="header-info">
       Hello! My name is <strong>Bryan Gordon</strong>, front end developer with <strong>+3 years of experience</strong> developing websites. I'm form Ecuador and I speak <strong>Spanish</strong> and <strong>English</strong>.
+      
+      <span class="container-icons">
+          <a target="_blank" referrerpolicy="no-referrer" href="https://www.linkedin.com/in/bryan-gordon-9ab303220">
+            Linkedin
+          </a>
+        
+          <a target="_blank" referrerpolicy="no-referrer" href="https://github.com/BryanGordon">
+            Github
+          </a>
+      </span>
     </p>
-
-    <div class="container-icons">
-      <i>
-        <a target="_blank" referrerpolicy="no-referrer" href="https://www.linkedin.com/in/bryan-gordon-9ab303220">
-          Linkedin
-        </a>
-      </i>
-
-      <i>
-        <a target="_blank" referrerpolicy="no-referrer" href="https://github.com/BryanGordon">
-          Github
-        </a>
-      </i>
-
-      <img src={imgDev.src} alt="A photo of Bryan Gordon front-end developer">
-    </div>
+      
+    <img src={imgDev.src} alt="A photo of Bryan Gordon front-end developer">
   </div>
 </header>
 
 <style>
+  header {
+background: linear-gradient(0deg, rgba(39, 41, 34, 1) 80%, rgba(61, 62, 90, 1) 100%);
+  }
+
   .info-container {
-    padding-top: 3rem;
+    padding-top: 8rem;
     display: flex;
     justify-content: space-around;
   }
@@ -36,11 +36,9 @@ import imgDev from '../assets/image-hap-cv.webp'
   .header-info {
     width: 50%;
     margin: 4rem 0.5rem 0.5rem 4rem;
-    color: #fff;
   }
 
   .container-icons {
-    display: flex; /** */
     vertical-align: middle;
   }
 
