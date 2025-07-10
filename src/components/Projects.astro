@@ -10,31 +10,97 @@ import images from '../assets/image-hap-cv.webp'
   <article>
     <ul class="container-projects">
       <li class="projects">
-        <a href="">
-          <img src={images.src} alt="">
-        </a>
+        <div class="img-container">
+          <a target="_blank" referrerpolicy="no-referrer" href="">
+            <img src={images.src} alt="">
+          </a>
+        </div>
+
+        <div class="project-info-container">
+          <span class="project-title">Algo</span>
+          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
+        </div>
       </li>
 
       <li class="projects">
-        <a href="">
-          <img src={images.src} alt="">
-        </a>
+        <div class="img-container">
+          <a target="_blank" referrerpolicy="no-referrer" href="">
+            <img src={images.src} alt="">
+          </a>
+        </div>
+
+        <div class="project-info-container">
+          <span class="project-title">Algo</span>
+          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
+        </div>
+      </li>
+
+      <li class="projects">
+        <div class="img-container">
+          <a target="_blank" referrerpolicy="no-referrer" href="">
+            <img src={images.src} alt="">
+          </a>
+        </div>
+
+        <div class="project-info-container">
+          <span class="project-title">Algo</span>
+          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
+        </div>
+      </li>
+
+      <li class="projects">
+        <div class="img-container">
+          <a target="_blank" referrerpolicy="no-referrer" href="">
+            <img src={images.src} alt="">
+          </a>
+        </div>
+
+        <div class="project-info-container">
+          <span class="project-title">Algo</span>
+          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
+        </div>
       </li>
     </ul>
   </article>
 </section>
 
 <style>
+  h1 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
   .container-projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     gap: 15px;
   }
 
+  .projects {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container {
+    margin: 0 auto;
+  }
+
   img {
-    width: 300px;
-    height: 275px;
+    width: 430px;
+    height: 280px;
     aspect-ratio: 1 / 1;
+    object-fit: fill;
     border-radius: 20px;
+  }
+
+  .project-info-container {
+    text-align: center;
+    margin-block: 30px;
+  }
+
+  .project-title {
+    margin-top: 30px;
+    font-weight: bold;
   }
 </style>
