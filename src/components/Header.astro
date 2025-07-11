@@ -1,5 +1,7 @@
 ---
 import imgDev from '../assets/image-hap-cv.webp'
+import Github from '../icons/Github.astro'
+import Linkedin from '../icons/Linkedin.astro'
 ---
 
 <header id="start">
@@ -9,11 +11,11 @@ import imgDev from '../assets/image-hap-cv.webp'
       
       <span class="container-icons">
           <a target="_blank" referrerpolicy="no-referrer" href="https://www.linkedin.com/in/bryan-gordon-9ab303220">
-            Linkedin
+            <Linkedin />
           </a>
         
           <a target="_blank" referrerpolicy="no-referrer" href="https://github.com/BryanGordon">
-            Github
+            <Github />
           </a>
       </span>
     </p>
@@ -24,11 +26,11 @@ import imgDev from '../assets/image-hap-cv.webp'
 
 <style>
   header {
-background: linear-gradient(0deg, rgba(39, 41, 34, 1) 80%, rgba(61, 62, 90, 1) 100%);
+    background: linear-gradient(0deg, rgba(39, 41, 34, 1) 80%, rgba(61, 62, 90, 1) 100%);
   }
 
   .info-container {
-    padding-top: 8rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: space-around;
   }
@@ -39,6 +41,9 @@ background: linear-gradient(0deg, rgba(39, 41, 34, 1) 80%, rgba(61, 62, 90, 1) 1
   }
 
   .container-icons {
+    display: inline-flex;
+    padding-left: 5px;
+    gap: 10px;
     vertical-align: middle;
   }
 
