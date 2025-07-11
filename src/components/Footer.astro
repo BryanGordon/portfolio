@@ -1,15 +1,47 @@
 ---
-
+  import Github from '../icons/Github.astro'
+  import Linkedin from '../icons/Linkedin.astro'
 ---
 
 <footer>
-  algo
+  <a class="link-autor" href="#start">
+    <span class="footer-author">Bryan Gordon</span>
+  </a>
+
+  <div class="icons">
+    <a class="link-footer-linkedin" target="_blank" referrerpolicy="no-referrer" href="https://www.linkedin.com/in/bryan-gordon-9ab303220">
+      <Linkedin />
+    </a>
+    <a class="link-footer-github" target="_blank" referrerpolicy="no-referrer" href="https://github.com/BryanGordon">
+      <Github />
+    </a>
+  </div>
 </footer>
 
 <style>
   footer {
-    padding: 25px;
+    background: linear-gradient(0deg, rgba(61, 62, 90, 1) 0%, rgba(39, 41, 34, 1) 80%);
+    padding-block: 25px;
     margin-top: auto;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-author:hover {
+    color: #8b8bffc2;
+  }
+
+  .footer-author {
+    color: #EDEDFC;
+    cursor: pointer;
+    transition: all ease 0.25s;
+    vertical-align: middle;
+  }
+
+  .icons {
+    display: flex;
+    gap: 20px;
   }
 </style>
