@@ -1,15 +1,15 @@
 ---
-const currentRoute = Astro.originPathname
+const currentRoute = Astro.url.pathname
 ---
 
 <nav>
   <ul class="nav-container">
     <li class="navbar-items">
-      <a href="/">Home</a>
+      <a class={currentRoute === '/' ? 'active' : ''} href="/">Home</a>
     </li>
 
     <li class="navbar-items">
-      <a href="/information">Personal information</a>
+      <a class={currentRoute === '/information' ? 'active' : ''} href="/information">Personal information</a>
     </li>
   </ul>
 </nav>
@@ -18,20 +18,36 @@ const currentRoute = Astro.originPathname
   .nav-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
   }
 
   .navbar-items {
     cursor: pointer;
-    padding: 0 25px;
     list-style: none;
   }
 
+  a:hover {
+    background-color: #8b8bffc2;
+    color: #000;
+  }
+  
   a {
+    border-radius: 5px;
     text-decoration: none;
+    font-size: 22px;
+    color: #EDEDFC;
+    font-weight: 500;
+    padding: 3px 15px;
+    transition: color linear 0.35s, background-color ease-in-out 0.4s;
+  }
+
+  .active:hover {
+    background-color: #ededfc98;
+    color: #000;
   }
 
   .active {
     color: #7e7efb;
+    transition: color linear 0.35s, background-color ease-in-out 0.4s;
   }
 </style>
