@@ -2,9 +2,9 @@
 import images from '../assets/image-hap-cv.webp'
 ---
 
-<section class="section-projects">
+<section id="spacing-section">
   <header>
-    <h1>Porjects</h1>
+    <h1>Projects</h1>
   </header>
 
   <article>
@@ -62,14 +62,20 @@ import images from '../assets/image-hap-cv.webp'
       </li>
     </ul>
   </article>
+
+  <article class="more-info">
+    <p>
+      If you want see all my projects, you can click
+      <strong>
+        <a target='_blank' referrerpolicy="no-referrer" href='https://github.com/BryanGordon'>
+          here
+        </a>
+      </strong>
+    </p>
+  </article>
 </section>
 
 <style>
-  h1 {
-    text-align: center;
-    margin-bottom: 100px;
-  }
-
   .container-projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
@@ -102,5 +108,23 @@ import images from '../assets/image-hap-cv.webp'
   .project-title {
     margin-top: 30px;
     font-weight: bold;
+  }
+
+  .more-info {
+    margin-top: 30px;
+
+    & p {
+      text-align: center;
+      font-weight: 600;
+
+      & a:hover {
+        color: #8b8bffc2;
+      }
+
+      & a {
+        color: #8b8bff;
+        transition: color ease 0.3s;
+      }
+    }
   }
 </style>
