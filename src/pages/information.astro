@@ -43,7 +43,12 @@ import Layout from '../layouts/Layout.astro'
       <h2>Certifications</h2>
 
       <div>
-        <h3>Udemy</h3>
+        <h3>
+          Udemy
+          <svg width="50" height="50">
+            <use xlink:href="/certificateIcons.svg#udemy" />
+          </svg>
+        </h3>
 
         <ul>
           <li>
@@ -65,7 +70,12 @@ import Layout from '../layouts/Layout.astro'
       </div>
 
       <div id="content-wrap-text">
-        <h3 id="spacing-certifications">University</h3>
+        <h3 id="spacing-certifications">
+          University
+          <svg width="30" height="30">
+            <use xlink:href="/certificateIcons.svg#university" />
+          </svg>
+        </h3>
 
         <ul>
           <li>
@@ -112,9 +122,7 @@ import Layout from '../layouts/Layout.astro'
 
       
     </article>
-    <svg width="300" height="300" stroke="#fff" stroke-line="#86f45f">
-        <use href="/certificationIcons.svg#udemy" />
-      </svg>
+   
   </section>
 </Layout>
 
@@ -142,6 +150,11 @@ import Layout from '../layouts/Layout.astro'
     color: #8b8bff;
     margin-top: 15px;
     margin-bottom: 35px;
+
+    & svg {
+      vertical-align: middle;
+      margin-left: 15px;
+    }
   }
 
   strong {
