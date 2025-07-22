@@ -1,5 +1,6 @@
 ---
 import images from '../assets/image-hap-cv.webp'
+import   dataProject  from '../mocks/projects.json'
 ---
 
 <section id="spacing-section">
@@ -9,57 +10,24 @@ import images from '../assets/image-hap-cv.webp'
 
   <article>
     <ul class="container-projects">
-      <li class="projects">
-        <div class="img-container">
-          <a target="_blank" referrerpolicy="no-referrer" href="">
-            <img src={images.src} alt="">
-          </a>
-        </div>
 
-        <div class="project-info-container">
-          <span class="project-title">Algo</span>
-          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
-        </div>
-      </li>
+      {
+        dataProject.map((project) => 
+          <li class="projects">
+            <div class="img-container">
+              <a target="_blank" referrerpolicy="no-referrer" href={project.linkProject}>
+                <img src={project.imageProject} alt={project.projectAlt}>
+              </a>
+            </div>
 
-      <li class="projects">
-        <div class="img-container">
-          <a target="_blank" referrerpolicy="no-referrer" href="">
-            <img src={images.src} alt="">
-          </a>
-        </div>
+            <div class="project-info-container">
+              <span class="project-title">{project.titleProject}</span>
+              <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</>
+            </div>
+          </li>
+        )
+      }
 
-        <div class="project-info-container">
-          <span class="project-title">Algo</span>
-          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
-        </div>
-      </li>
-
-      <li class="projects">
-        <div class="img-container">
-          <a target="_blank" referrerpolicy="no-referrer" href="">
-            <img src={images.src} alt="">
-          </a>
-        </div>
-
-        <div class="project-info-container">
-          <span class="project-title">Algo</span>
-          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
-        </div>
-      </li>
-
-      <li class="projects">
-        <div class="img-container">
-          <a target="_blank" referrerpolicy="no-referrer" href="">
-            <img src={images.src} alt="">
-          </a>
-        </div>
-
-        <div class="project-info-container">
-          <span class="project-title">Algo</span>
-          <p class="description-project">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, animi.</p>
-        </div>
-      </li>
     </ul>
   </article>
 
@@ -107,6 +75,7 @@ import images from '../assets/image-hap-cv.webp'
 
   .project-title {
     margin-top: 30px;
+    color: #8b8bff;
     font-weight: bold;
   }
 
