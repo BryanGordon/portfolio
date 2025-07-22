@@ -12,7 +12,7 @@ import   dataProject  from '../mocks/projects.json'
     <ul class="container-projects">
 
       {
-        dataProject.map((project) => 
+        dataProject.map((project) => (
           <li class="projects">
             <div class="img-container">
               <a target="_blank" referrerpolicy="no-referrer" href={project.linkProject}>
@@ -25,7 +25,7 @@ import   dataProject  from '../mocks/projects.json'
               <p class="description-project">{project.descriptionProject}</p>
             </div>
           </li>
-        )
+        ))
       }
 
     </ul>
