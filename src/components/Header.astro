@@ -53,4 +53,21 @@ import Linkedin from '../icons/Linkedin.astro'
     aspect-ratio: 178 / 175;
     border-radius: 0.7rem;
   }
+
+  @media (width <= 728px) {
+    .info-container {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .header-info {
+      width: 90%;
+    }
+  }
+  
+  @media (width >= 330px) and (width <= 604px) {
+    .header-info {
+      margin-inline: 0;
+    }
+  }
 </style>
