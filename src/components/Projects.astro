@@ -95,4 +95,21 @@ import   dataProject  from '../mocks/projects.json'
       }
     }
   }
+
+  @media (width <= 970px) {
+    .container-projects {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (width >= 330px) and (width <= 550px) {
+    .container-projects {
+      padding: 0;
+    }
+
+    img {
+      width: 280px;
+      object-fit: contain;
+    }
+  }
 </style>
