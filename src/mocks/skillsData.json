@@ -1,18 +1,71 @@
 [
   {
-    "imageSkill": "css-logo.webp",
-    "skillAlt": "CSS"
+    "id": "1",
+    "iconName": "/skillsIcons.svg#javascript"
   },
   {
-    "imageSkill": "html-logo.webp",
-    "skillAlt": "HTML"
+    "id": "2",
+    "iconName": "/skillsIcons.svg#typescript"
   },
   {
-    "imageSkill": "js-logo.webp",
-    "skillAlt": "JavaScript"
+    "id": "3",
+    "iconName": "/skillsIcons.svg#html"
   },
   {
-    "imageSkill": "react-logo.webp",
-    "skillAlt": "React"  
+    "id": "4",
+    "iconName": "/skillsIcons.svg#css"  
+  },
+  {
+    "id": "5",
+    "iconName": "/skillsIcons.svg#tailwind"  
+  },
+  {
+    "id": "6",
+    "iconName": "/skillsIcons.svg#react"  
+  },
+  {
+    "id": "7",
+    "iconName": "/skillsIcons.svg#svelte"  
+  },
+  {
+    "id": "8",
+    "iconName": "/skillsIcons.svg#vue"  
+  },
+  {
+    "id": "9",
+    "iconName": "/skillsIcons.svg#native"  
+  },
+  {
+    "id": "10",
+    "iconName": "/skillsIcons.svg#astro"  
+  },
+  {
+    "id": "11",
+    "iconName": "/skillsIcons.svg#next"  
+  },
+  {
+    "id": "12",
+    "iconName": "/skillsIcons.svg#zustand"  
+  },
+  {
+    "id": "13",
+    "iconName": "/skillsIcons.svg#postgresql"  
+  },
+  {
+    "id": "14",
+    "iconName": "/skillsIcons.svg#mysql"  
+  },
+  {
+    "id": "15",
+    "iconName": "/skillsIcons.svg#java"  
+  },
+  {
+    "id": "16",
+    "iconName": "/skillsIcons.svg#python"  
+  },
+  {
+    "id": "17",
+    "iconName": "/skillsIcons.svg#c#"  
   }
+
 ]
