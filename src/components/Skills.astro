@@ -1,6 +1,6 @@
 ---
 import Node from '../icons/Node.astro'
-
+import skillsIcons from '../mocks/skillsData.json'
 ---
 
 <section id="spacing-section">
@@ -9,12 +9,16 @@ import Node from '../icons/Node.astro'
   </header>
 
   <article>
-    <div class="icon-card">
-      <svg width="40" height="40">
-        <use xlink:href="/skillsIcons.svg#javascript"/>
-      </svg>
-    </div>
-
+    {
+      skillsIcons.map((item) => (  
+        <div class="icon-card">
+          <svg width="40" height="40">
+            <use xlink:href={item.iconName} />
+          </svg>
+        </div>
+      ))
+    }
+<!-- 
     <div class="icon-card">
       <svg width="40" height="40">
         <use xlink:href="/skillsIcons.svg#typescript"/>
@@ -110,7 +114,7 @@ import Node from '../icons/Node.astro'
         <use xlink:href="/skillsIcons.svg#c#"/>
       </svg>
     </div>
-
+-->
     <div class="icon-card">
       <Node />
     </div>
