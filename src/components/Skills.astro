@@ -11,7 +11,7 @@ import skillsIcons from '../mocks/skillsData.json'
   <article>
     {
       skillsIcons.map((item) => (  
-        <div class="icon-card">
+        <div data-title={item.name} class="icon-card">
           <svg width="40" height="40">
             <use xlink:href={item.iconName} />
           </svg>
@@ -19,7 +19,7 @@ import skillsIcons from '../mocks/skillsData.json'
       ))
     }
 
-    <div class="icon-card">
+    <div title="Nodejs" class="icon-card">
       <Node />
     </div>
 
@@ -36,6 +36,11 @@ import skillsIcons from '../mocks/skillsData.json'
     border-radius: 20px;
     background: radial-gradient(#262737 0%, #272922 90%);
   }
+
+   .icon-card:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+  }
   
   .icon-card {
     display: flex;
@@ -45,6 +50,30 @@ import skillsIcons from '../mocks/skillsData.json'
     height: 50px;
     border-radius: 5px;
     background-color: #9898a091;
+    transition: transform ease 0.3s, background-color ease-in-out 0.25s;
+  }
+
+  [data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+  [data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
   }
 
   @media (width <= 614px) {
