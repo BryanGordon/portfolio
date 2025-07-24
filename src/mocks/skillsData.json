@@ -1,70 +1,87 @@
 [
   {
     "id": "1",
+    "name": "Javascript",
     "iconName": "/skillsIcons.svg#javascript"
   },
   {
     "id": "2",
+    "name": "Typescript",
     "iconName": "/skillsIcons.svg#typescript"
   },
   {
     "id": "3",
+    "name": "HTML",
     "iconName": "/skillsIcons.svg#html"
   },
   {
     "id": "4",
+    "name": "CSS",
     "iconName": "/skillsIcons.svg#css"  
   },
   {
     "id": "5",
+    "name": "TailwindCSS",
     "iconName": "/skillsIcons.svg#tailwind"  
   },
   {
     "id": "6",
+    "name": "React",
     "iconName": "/skillsIcons.svg#react"  
   },
   {
     "id": "7",
+    "name": "Svelte",
     "iconName": "/skillsIcons.svg#svelte"  
   },
   {
     "id": "8",
+    "name": "Vuejs",
     "iconName": "/skillsIcons.svg#vue"  
   },
   {
     "id": "9",
+    "name": "Expo - React Native",
     "iconName": "/skillsIcons.svg#native"  
   },
   {
     "id": "10",
+    "name": "Astro",
     "iconName": "/skillsIcons.svg#astro"  
   },
   {
     "id": "11",
+    "name": "Nextjs",
     "iconName": "/skillsIcons.svg#next"  
   },
   {
     "id": "12",
+    "name": "Zustand",
     "iconName": "/skillsIcons.svg#zustand"  
   },
   {
     "id": "13",
+    "name": "PostgreSQL",
     "iconName": "/skillsIcons.svg#postgresql"  
   },
   {
     "id": "14",
+    "name": "MySQL",
     "iconName": "/skillsIcons.svg#mysql"  
   },
   {
     "id": "15",
+    "name": "Java",
     "iconName": "/skillsIcons.svg#java"  
   },
   {
     "id": "16",
+    "name": "Python",
     "iconName": "/skillsIcons.svg#python"  
   },
   {
     "id": "17",
+    "name": "C#",
     "iconName": "/skillsIcons.svg#c#"  
   }
 
