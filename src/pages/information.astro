@@ -72,8 +72,8 @@ import Layout from '../layouts/Layout.astro'
         </ul>
       </div>
 
-      <div id="content-wrap-text">
-        <h3 id="spacing-certifications">
+      <div class="content-wrap-text">
+        <h3 class="spacing-certifications">
           University
           <svg width="30" height="30">
             <use xlink:href="/certificateIcons.svg#university" />
@@ -97,7 +97,7 @@ import Layout from '../layouts/Layout.astro'
       </div>
 
       <div>
-        <h3 id="spacing-certifications">
+        <h3 class="spacing-certifications">
           Cisco
           <svg width="45" height="45">
             <use xlink:href="/certificateIcons.svg#cisco" />
@@ -113,7 +113,7 @@ import Layout from '../layouts/Layout.astro'
       </div>
 
       <div>
-        <h3 id="spacing-certifications">
+        <h3 class="spacing-certifications">
           Platzi
           <svg width="28" height="28">
             <use xlink:href="/certificateIcons.svg#platzi"/>
@@ -129,7 +129,7 @@ import Layout from '../layouts/Layout.astro'
       </div>
 
       <div>
-        <h3 id="spacing-certifications">
+        <h3 class="spacing-certifications">
           Domestika
           <svg width="27" height="27">
             <use xlink:href="/certificateIcons.svg#domestika"/>
@@ -229,11 +229,11 @@ import Layout from '../layouts/Layout.astro'
     display: inline;
   }
 
-  #spacing-certifications {
+  .spacing-certifications {
     margin-top: 60px;
   }
 
-  #content-wrap-text {
+  .content-wrap-text {
     width: 60%;
     margin: 0 auto;
     text-wrap: balance;
@@ -245,7 +245,7 @@ import Layout from '../layouts/Layout.astro'
   }
 
   @media (width < 1080px) {
-    #content-wrap-text {
+    .content-wrap-text {
       width: 100%;
       margin: 0;
     }
