@@ -59,12 +59,18 @@ import   dataProject  from '../mocks/projects.json'
     margin: 0 auto;
   }
 
+  img:hover {
+    transform: scale(1.01);
+    filter: drop-shadow(1px 1px 10px #8b8bff);
+  }
+
   img {
     width: 430px;
     height: 280px;
     aspect-ratio: 1 / 1;
     object-fit: fill;
     border-radius: 20px;
+    transition: all ease-out 0.25s;
   }
 
   .project-info-container {
