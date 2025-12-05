@@ -9,24 +9,22 @@ import   dataProject  from '../mocks/projects.json'
 
   <article>
     <ul class="container-projects">
-
       {
         dataProject.map((project) => (
-          <li class="projects">
+          <li class="projects" >
+          <a href="/bakery">
             <div class="img-container">
-              <a target="_blank" referrerpolicy="no-referrer" href={project.linkProject}>
-                <img src={project.imageProject} alt={project.projectAlt}/>
-              </a>
-            </div>
+                  <img src={project.imageProject} alt={project.projectAlt}/>
+              </div>
 
-            <div class="project-info-container">
-              <span class="project-title">{project.titleProject}</span>
-              <p class="description-project">{project.descriptionProject}</p>
-            </div>
+              <div class="project-info-container">
+                <span class="project-title">{project.titleProject}</span>
+                <p class="description-project">{project.descriptionProject}</p>
+              </div>
+          </a>
           </li>
         ))
       }
-
     </ul>
   </article>
 
