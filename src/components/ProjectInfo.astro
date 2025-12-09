@@ -4,18 +4,18 @@
 
 <article>
   <header>
-    <div>
-      <img src="" alt="">
+    <div class="container-image">
+      <img src="" alt="imagen">
     </div>
   </header>
 
-  <div>
+  <div class="container-info">
     <h1>Titulo del proyecto</h1>
     <h4>Descripcion</h4>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, iusto dolore? Ipsa repudiandae pariatur enim blanditiis non libero maxime repellendus officia asperiores, minima nisi beatae at facere ad ipsum. Accusamus quos, iure autem quo animi architecto soluta deserunt sapiente, vel similique ratione? Illum, debitis facere!</p>
   </div>
 
-  <div>
+  <div class="container-tech">
     <h4>Tecnologias</h4>
     <article>
       <i>Icono de cada tecnologia</i>
@@ -24,5 +24,36 @@
     </article>
   </div>
 
-
 </article>
+
+<style>
+  * {
+    color: white;
+  }
+
+  .container-info {
+    width: 80dvw;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-wrap: wrap;
+  }
+
+  .container-tech {
+    width: 80dvw;
+    margin: 0 auto;
+
+    & article {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+  }
+
+
+</style>
