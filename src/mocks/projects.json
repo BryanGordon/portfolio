@@ -1,51 +1,89 @@
 [
   {
+    "name": "dronify",
     "titleProject": "Dronify",
     "imageProject": "dronify.webp",
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
-    "descriptionProject": "Web page made for a friend use. This page was designed for save presets of drons.",
-    "devTecs": "Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
+    "shortDescription": "Web page made for a friend use. This page was designed for save presets of drons.",
+    "longDescription":"lorem",
+    "techs": [
+      "react",
+      "javascript",
+      "shadcn",
+      "tailwind",
+      "css"
+    ]
   },
   {
+    "name": "gym",
     "titleProject": "Gym web",
     "imageProject": "gym-page.webp",
-    "projectAlt": "Gym-project",
+    "projectAlt": "Web page for a gym",
     "linkProject": "https://gym-a4f838.netlify.app",
-    "descriptionProject": "Web page with modern design for a gym.",
-    "devTecs": "Developed with React, TypeScript and TailwindCSS."
+    "shortDescription": "Web page with modern design for a gym.",
+    "longDescription": "lorem",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ]
   },
   {
+    "name": "rick-morty",
     "titleProject":"Rick and Morty fan page",
     "imageProject":"rickmorty-page.webp",
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
-    "descriptionProject":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places.",
-    "devTecs": "Developed with React, React Context, TypeScript, CSS."
+    "shortDescription":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places.",
+    "longDescription":"lorem",
+    "techs": [
+      "react",
+      "typescript",
+      "css"
+    ]
   },
   {
+    "name": "bakery",
     "titleProject": "Bakery 2.0",
     "imageProject": "bakery2.webp",
     "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/",
-    "descriptionProject": "A better design for Bakery page. This version includes navigation.",
-    "devTecs": "Developed with React, JavaScript and CSS."
+    "shortDescription": "A better design for Bakery page. This version includes navigation.",
+    "longDescription": "lorem",
+    "techs": [
+      "react",
+      "javascript",
+      "css"
+    ]
   },
   {
+    "name": "transport",
     "titleProject": "Transport Web",
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "descriptionProject": "SPA for a transport enterprise purpose.",
-    "devTecs": "Developed with React, CSS and TailwindCSS."
+    "shortDescription": "SPA for a transport enterprise purpose.",
+    "longDescription": "lorem",
+    "techs": [
+      "react",
+      "tailwind",
+      "css"
+    ]
   },
   {
+    "name": "restaurant",
     "titleProject": "Restaurant",
     "imageProject": "restaurant-menu.webp",
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
-    "descriptionProject": "This page was designed for a restaurant menu use.",
-    "devTecs": "Developed with React, JavaScript and CSS."
+    "shortDescription": "This page was designed for a restaurant menu use.",
+    "longDescription": "lorem",
+    "techs": [
+      "react",
+      "javascript",
+      "css"
+    ]
   }
 ]
 
