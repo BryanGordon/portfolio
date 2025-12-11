@@ -1,3 +1,10 @@
 ---
+import ProjectInfo from '../components/ProjectInfo.astro'
+import PagesLayout from '../layouts/PagesLayout.astro'
 
+const position = 2
 ---
+
+<PagesLayout>
+  <ProjectInfo data={position}/>
+</PagesLayout>
