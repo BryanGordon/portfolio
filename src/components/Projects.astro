@@ -12,14 +12,14 @@ import   dataProject  from '../mocks/projects.json'
       {
         dataProject.map((project) => (
           <li class="projects" >
-          <a href="/bakery">
+          <a href={`/${project.name}`}>
             <div class="img-container">
                   <img src={project.imageProject} alt={project.projectAlt}/>
               </div>
 
               <div class="project-info-container">
                 <span class="project-title">{project.titleProject}</span>
-                <p class="description-project">{project.descriptionProject}</p>
+                <p class="description-project">{project.shortDescription}</p>
               </div>
           </a>
           </li>
