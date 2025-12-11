@@ -32,28 +32,19 @@ trying()
   <div class="container-info">
     <h1>{project.titleProject}</h1>
     <h4>Description</h4>
-    <p>{project.descriptionProject}</p>
+    <p>{project.shortDescription}</p>
   </div>
 
   <div class="container-tech">
     <h4>Tecnologias</h4>
     <article>
       {
-        info.techs.map((tech) => (
+        project.techs.map((tech) => (
           <svg width="40px" height="40px">
             <use xlink:href={`/skillsIcons.svg#${tech}`}/>
       </svg>
         ))
       }
-      <svg width="40px" height="40px">
-        <use xlink:href={Icon}/>
-      </svg>
-      <svg width="40px" height="40px">
-        <use xlink:href={Icon}/>
-      </svg>
-      <svg width="40px" height="40px">
-        <use xlink:href={Icon}/>
-      </svg>
     </article>
   </div>
 
