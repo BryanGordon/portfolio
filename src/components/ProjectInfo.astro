@@ -1,25 +1,9 @@
 ---
-import Bakery from '/public/bakery2.webp'
-import { Image } from 'astro:assets'
-// import Icon from '/skillsIcons.svg#javascript'
-/** Cambiar el font size del h1 a 42px y los h4 a 24px
- * Colocar el nombre de go en el archivo de los svgs 
- */
 import Projects from '../mocks/projects.json'
-import Test from '../mocks/projects2.json'
 
 const { data }: number | any = Astro.props
 
 const project = Projects[data]
-const info = Test[0]
-
-function trying() {
-  for (let i = 0; i < 3; i++) {
-    console.log(info.techs[i])
-  }
-}
-
-trying()
 ---
 
 <article>
@@ -63,10 +47,12 @@ trying()
   h1 {
     text-align: center;
     color: #7e7efb;
+    font-size: 42px;
   }
 
   h4 {
     color: #8b8bffdc;
+    font-size: 24px;
   }
 
   p {
@@ -103,6 +89,5 @@ trying()
   p {
     line-height: 1.6;
   }
-
 
 </style>
