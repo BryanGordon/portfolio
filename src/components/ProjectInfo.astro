@@ -9,7 +9,9 @@ const project = Projects[data]
 <article>
   <header>
     <div class="container-image">
-      <img class="image-style" src={project.imageProject} alt={project.projectAlt} />
+      <a href="#">
+        <img class="image-style" src={project.imageProject} alt={project.projectAlt} />
+      </a>
     </div>
   </header>
 
@@ -80,10 +82,15 @@ const project = Projects[data]
     margin: 10px auto 40px;
   }
 
+  .image-style:hover {
+    transform: scale(0.93);
+  }
+
   .image-style {
     width: 100%;
     aspect-ratio: 3 / 2;
     object-fit: contain;
+    transition: all ease-out 0.25s;
   }
 
   p {
