@@ -19,7 +19,7 @@ import Footer from '../components/Footer.astro'
     <section>
       <header>
         <div class="container-back">
-          <a href="/">
+          <a class="back-icon" href="/">
             <svg class="back-icon" width="18" height="18">
               <use xlink:href='/certificateIcons.svg#back-arrow'/>
             </svg>
@@ -62,7 +62,7 @@ import Footer from '../components/Footer.astro'
     padding-top: 45px;
   }
 
-  a:hover {
+  .back-icon:hover {
     color: #EDEDFC;
 
      & svg{
@@ -70,7 +70,7 @@ import Footer from '../components/Footer.astro'
     }
   }
 
-  a {
+  .back-icon {
     text-decoration: none;
     color: #8b8bff;
     transition: color ease-in-out 0.25s;
