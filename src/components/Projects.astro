@@ -45,6 +45,7 @@ import   dataProject  from '../mocks/projects.json'
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     gap: 20px;
+    padding: 0px;
   }
 
   .projects {
@@ -118,9 +119,14 @@ import   dataProject  from '../mocks/projects.json'
       padding: 0;
     }
 
+    .img-container {
+      height: 55%;
+    }
+
     img {
-      width: 280px;
+      width: 100%;
       object-fit: contain;
+      aspect-ratio: 3 / 4;
     }
   }
 </style>
