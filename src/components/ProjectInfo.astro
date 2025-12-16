@@ -83,14 +83,16 @@ const project = Projects[data]
   }
 
   .image-style:hover {
-    transform: scale(0.93);
+    transform: scale(0.97);
+    filter: blur(3px);
+    opacity: 0.8;
   }
 
   .image-style {
     width: 100%;
     aspect-ratio: 3 / 2;
     object-fit: contain;
-    transition: all ease-out 0.25s;
+    transition: all ease 0.3s;
   }
 
   p {
