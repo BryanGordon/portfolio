@@ -2,6 +2,7 @@
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
 import Navbar from '../components/Navbar.astro'
+import { ClientRouter } from 'astro:transitions';
 ---
 
 <!doctype html>
@@ -16,6 +17,7 @@ import Navbar from '../components/Navbar.astro'
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@300;400&family=Mulish:wght@300&display=swap" rel="stylesheet">
     <title>Bryan's Portfolio | Front end Developer</title>
+    <ClientRouter />
   </head>
 	<body>
     <Header />
