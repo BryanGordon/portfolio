@@ -14,7 +14,7 @@ import   dataProject  from '../mocks/projects.json'
           <li class="projects" >
           <a href={`/${project.name}`}>
             <div class="img-container">
-                  <img src={project.imageProject} alt={project.projectAlt}/>
+                  <img transition:name={`transi-${project.name}`} src={project.imageProject} alt={project.projectAlt}/>
               </div>
 
               <div class="project-info-container">

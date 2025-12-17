@@ -10,7 +10,7 @@ const project = Projects[data]
   <header>
     <div class="container-image">
       <a href={project.linkProject} target="_blank" referrerpolicy="no-referrer">
-        <img class="image-style" src={project.imageProject} alt={project.projectAlt} />
+        <img transition:name={`transi-${project.name}`} class="image-style" src={project.imageProject} alt={project.projectAlt} />
       </a>
     </div>
   </header>
