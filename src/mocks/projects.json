@@ -5,7 +5,7 @@
     "imageProject": "dronify.webp",
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
-    "shortDescription": "Web page made for a friend use. This page was designed for save presets of drons.",
+    "shortDescription": "Web page designed for save drons fly presets.",
     "longDescription":"lorem",
     "techs": [
       "react",
@@ -21,7 +21,7 @@
     "imageProject": "gym-page.webp",
     "projectAlt": "Web page for a gym",
     "linkProject": "https://gym-a4f838.netlify.app",
-    "shortDescription": "Web page with modern design for a gym.",
+    "shortDescription": "Gym web page with modern design.",
     "longDescription": "lorem",
     "techs": [
       "react",
@@ -35,7 +35,7 @@
     "imageProject":"rickmorty-page.webp",
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
-    "shortDescription":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places.",
+    "shortDescription":"Fan web page about Rick and Morty series with some features.",
     "longDescription":"lorem",
     "techs": [
       "react",
@@ -49,7 +49,7 @@
     "imageProject": "bakery2.webp",
     "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/",
-    "shortDescription": "A better design for Bakery page. This version includes navigation.",
+    "shortDescription": "Bakery web page with improvement over the previous version.",
     "longDescription": "lorem",
     "techs": [
       "react",
@@ -63,7 +63,7 @@
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "shortDescription": "SPA for a transport enterprise purpose.",
+    "shortDescription": "Transport SPA with simple desing and animations.",
     "longDescription": "lorem",
     "techs": [
       "react",
@@ -77,7 +77,7 @@
     "imageProject": "restaurant-menu.webp",
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
-    "shortDescription": "This page was designed for a restaurant menu use.",
+    "shortDescription": "Menu web page for a restaurant use.",
     "longDescription": "lorem",
     "techs": [
       "react",
