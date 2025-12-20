@@ -6,7 +6,7 @@
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
     "shortDescription": "Web page designed for save drons fly presets.",
-    "longDescription":"lorem",
+    "longDescription":"This web site was made for a user how wants to store him drone fly configurations. Use technologies as React, JavaScript, Shadcn, TailwindCSS and CSS. The website allow to save some presets on localstorage, only need to put the sensibility, velocity and exposure for Roll, Pitch and Yaw fields then you can add a name for the configurations and save it, also you can see and delete all configurations previuosly saved.",
     "techs": [
       "react",
       "javascript",
@@ -22,7 +22,7 @@
     "projectAlt": "Web page for a gym",
     "linkProject": "https://gym-a4f838.netlify.app",
     "shortDescription": "Gym web page with modern design.",
-    "longDescription": "lorem",
+    "longDescription": "Website created applying modern design patterns, adding kento grids and animations. This site is about a gym, can see most relevant information into home section and can navigate to another pages as services and contacts. Technologies used are React, TailwindCSS and TypeScript, also the animations was made with Framer Motion.",
     "techs": [
       "react",
       "typescript",
@@ -36,7 +36,7 @@
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
     "shortDescription":"Fan web page about Rick and Morty series with some features.",
-    "longDescription":"lorem",
+    "longDescription":"Web page made for a programming test with Rick and Morty topic. Use technologies as React, TypeScript and CSS, also use React Context for manage a global state. The page has an infinity scroll with UseRef hook. In this web site you can see all the characters from the series and all the ubications as well, if you want to add some characters and/or ubications you need to log in (User and password are on login page) then you can see it on favorites tab.",
     "techs": [
       "react",
       "typescript",
@@ -50,7 +50,7 @@
     "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/",
     "shortDescription": "Bakery web page with improvement over the previous version.",
-    "longDescription": "lorem",
+    "longDescription": "This web page was a rebuild for a previous version about a real bakery store, add a better design, navigation bar, and an algorithm to show some products without been repeated into the home page. The technologies used in it was React, JavaScript and CSS.",
     "techs": [
       "react",
       "javascript",
@@ -64,7 +64,7 @@
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
     "shortDescription": "Transport SPA with simple desing and animations.",
-    "longDescription": "lorem",
+    "longDescription": "This web site is a SPA about a transport enterprise and has different sections with a navigation bar. Made with technologies as React, TailwindCSS and CSS also has some triggered animations using Framer Motion.",
     "techs": [
       "react",
       "tailwind",
@@ -78,7 +78,7 @@
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
     "shortDescription": "Menu web page for a restaurant use.",
-    "longDescription": "lorem",
+    "longDescription": "This web site is about restaurant menu, can see some kind of dishes with a sort description. The technologies are React, JavaScript and CSS.",
     "techs": [
       "react",
       "javascript",
