@@ -11,17 +11,17 @@ import   dataProject  from '../mocks/projects.json'
     <ul class="container-projects">
       {
         dataProject.map((project) => (
-          <li class="projects" >
-          <a href={`/${project.name}`}>
-            <div class="img-container">
-                  <img transition:name={`transi-${project.name}`} src={project.imageProject} alt={project.projectAlt}/>
+          <li class="projects">
+            <a href={`/${project.name}`}>
+              <div class="img-container">
+                <img transition:name={`transi-${project.name}`} src={project.imageProject} alt={project.projectAlt}/>
               </div>
 
               <div class="project-info-container">
                 <span class="project-title">{project.titleProject}</span>
                 <p class="description-project">{project.shortDescription}</p>
               </div>
-          </a>
+            </a>
           </li>
         ))
       }
@@ -82,7 +82,6 @@ import   dataProject  from '../mocks/projects.json'
     aspect-ratio: 1 / 1;
     object-fit: fill;
     border-radius: 20px;
-    
   }
 
   .project-info-container {
