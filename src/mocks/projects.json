@@ -5,8 +5,8 @@
     "imageProject": "dronify.webp",
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
-    "shortDescription": "Web page designed for save drons fly presets.",
-    "longDescription":"This web site was made for a user how wants to store him drone fly configurations. Use technologies as React, JavaScript, Shadcn, TailwindCSS and CSS. The website allow to save some presets on localstorage, only need to put the sensibility, velocity and exposure for Roll, Pitch and Yaw fields then you can add a name for the configurations and save it, also you can see and delete all configurations previuosly saved.",
+    "shortDescription": "Web page designed for save drones fly presets.",
+    "longDescription":"This web site was made for a user how wants to store him drone fly configurations. Use technologies as React, JavaScript, Shadcn, TailwindCSS and CSS. The website allow to save some presets on localstorage, only need to put the sensibility, velocity and exposure for Roll, Pitch and Yaw fields, then you can add a name for the configurations and save it, also you can see and delete all configurations previuosly saved.",
     "techs": [
       "react",
       "javascript",
@@ -22,7 +22,7 @@
     "projectAlt": "Web page for a gym",
     "linkProject": "https://gym-a4f838.netlify.app",
     "shortDescription": "Gym web page with modern design.",
-    "longDescription": "Website created applying modern design patterns, adding kento grids and animations. This site is about a gym, can see most relevant information into home section and can navigate to another pages as services and contacts. Technologies used are React, TailwindCSS and TypeScript, also the animations was made with Framer Motion.",
+    "longDescription": "Website created applying modern design patterns, adding kento grids and animations. This site is about a gym, has the most relevant information into home section and can navigate to another tabs like services and contacts. Technologies used are React, TailwindCSS and TypeScript, also the animations was made with Framer Motion.",
     "techs": [
       "react",
       "typescript",
@@ -36,7 +36,7 @@
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
     "shortDescription":"Fan web page about Rick and Morty series with some features.",
-    "longDescription":"Web page made for a programming test with Rick and Morty topic. Use technologies as React, TypeScript and CSS, also use React Context for manage a global state. The page has an infinity scroll with UseRef hook. In this web site you can see all the characters from the series and all the ubications as well, if you want to add some characters and/or ubications you need to log in (User and password are on login page) then you can see it on favorites tab.",
+    "longDescription":"Web page made for a programming test with Rick and Morty topic. Use technologies as React, TypeScript and CSS, also use React Context for manage the global state. The page has an infinity scroll with UseRef hook. In this web site you can see all the characters from the series and all the ubications as well, if you want to add some characters and/or ubications you need to log in (User and password are on login page) then you can see it on favorites tab.",
     "techs": [
       "react",
       "typescript",
@@ -86,6 +86,5 @@
     ]
   }
 ]
-
 
    
