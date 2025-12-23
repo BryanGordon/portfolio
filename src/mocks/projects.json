@@ -1,53 +1,90 @@
 [
   {
+    "name": "dronify",
     "titleProject": "Dronify",
     "imageProject": "dronify.webp",
     "projectAlt": "Dronify",
     "linkProject": "https://dronify-demo.netlify.app",
-    "descriptionProject": "Web page made for a friend use. This page was designed for save presets of drons.",
-    "devTecs": "Developed with localStorage, React, JavaScript, Shadcn, Tailwind and CSS."
+    "shortDescription": "Web page designed for save drones fly presets.",
+    "longDescription":"This web site was made for a user how wants to store him drone fly configurations. Use technologies as React, JavaScript, Shadcn, TailwindCSS and CSS. The website allow to save some presets on localstorage, only need to put the sensibility, velocity and exposure for Roll, Pitch and Yaw fields, then you can add a name for the configurations and save it, also you can see and delete all configurations previuosly saved.",
+    "techs": [
+      "react",
+      "javascript",
+      "shadcn",
+      "tailwind",
+      "css"
+    ]
   },
   {
+    "name": "gym",
     "titleProject": "Gym web",
     "imageProject": "gym-page.webp",
-    "projectAlt": "Gym-project",
+    "projectAlt": "Web page for a gym",
     "linkProject": "https://gym-a4f838.netlify.app",
-    "descriptionProject": "Web page with modern design for a gym.",
-    "devTecs": "Developed with React, TypeScript and TailwindCSS."
+    "shortDescription": "Gym web page with modern design.",
+    "longDescription": "Website created applying modern design patterns, adding kento grids and animations. This site is about a gym, has the most relevant information into home section and can navigate to another tabs like services and contacts. Technologies used are React, TailwindCSS and TypeScript, also the animations was made with Framer Motion.",
+    "techs": [
+      "react",
+      "typescript",
+      "tailwind"
+    ]
   },
   {
+    "name": "rick-morty",
     "titleProject":"Rick and Morty fan page",
     "imageProject":"rickmorty-page.webp",
     "projectAlt":"Web page for Rick and Morty fans ",
     "linkProject":"https://rick-morty-fan-page-eabde7.netlify.app/",
-    "descriptionProject":"Web page created for a interview challange about Rick and Morty series. You can see all the characters and places with infinity scroll, also you can log in to add your favorites characters and places.",
-    "devTecs": "Developed with React, React Context, TypeScript, CSS."
+    "shortDescription":"Fan web page about Rick and Morty series with some features.",
+    "longDescription":"Web page made for a programming test with Rick and Morty topic. Use technologies as React, TypeScript and CSS, also use React Context for manage the global state. The page has an infinity scroll with UseRef hook. In this web site you can see all the characters from the series and all the ubications as well, if you want to add some characters and/or ubications you need to log in (User and password are on login page) then you can see it on favorites tab.",
+    "techs": [
+      "react",
+      "typescript",
+      "css"
+    ]
   },
   {
+    "name": "bakery",
     "titleProject": "Bakery 2.0",
     "imageProject": "bakery2.webp",
     "projectAlt": "BakeryV2-project",
     "linkProject": "https://bakery2-37af84.netlify.app/",
-    "descriptionProject": "A better design for Bakery page. This version includes navigation.",
-    "devTecs": "Developed with React, JavaScript and CSS."
+    "shortDescription": "Bakery web page with improvement over the previous version.",
+    "longDescription": "This web page was a rebuild for a previous version about a real bakery store, add a better design, navigation bar, and an algorithm to show some products without been repeated into the home page. The technologies used in it was React, JavaScript and CSS.",
+    "techs": [
+      "react",
+      "javascript",
+      "css"
+    ]
   },
   {
+    "name": "transport",
     "titleProject": "Transport Web",
     "imageProject": "transport.webp",
     "projectAlt": "Transport web page",
     "linkProject": "https://transporte-90a965.netlify.app",
-    "descriptionProject": "SPA for a transport enterprise purpose.",
-    "devTecs": "Developed with React, CSS and TailwindCSS."
+    "shortDescription": "Transport SPA with simple desing and animations.",
+    "longDescription": "This web site is a SPA about a transport enterprise and has different sections with a navigation bar. Made with technologies as React, TailwindCSS and CSS also has some triggered animations using Framer Motion.",
+    "techs": [
+      "react",
+      "tailwind",
+      "css"
+    ]
   },
   {
+    "name": "restaurant",
     "titleProject": "Restaurant",
     "imageProject": "restaurant-menu.webp",
     "projectAlt": "Restaurant-project",
     "linkProject": "https://parrilla-3bfcb7.netlify.app/",
-    "descriptionProject": "This page was designed for a restaurant menu use.",
-    "devTecs": "Developed with React, JavaScript and CSS."
+    "shortDescription": "Menu web page for a restaurant use.",
+    "longDescription": "This web site is about restaurant menu, can see some kind of dishes with a sort description. The technologies are React, JavaScript and CSS.",
+    "techs": [
+      "react",
+      "javascript",
+      "css"
+    ]
   }
 ]
-
 
    

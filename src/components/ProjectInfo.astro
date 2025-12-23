@@ -1,0 +1,130 @@
+---
+import Projects from '../mocks/projects.json'
+
+const { data }: number | any = Astro.props
+
+const project = Projects[data]
+---
+
+<article>
+  <header>
+    <div class="container-image">
+      <a href={project.linkProject} target="_blank" referrerpolicy="no-referrer">
+        <img transition:name={`transi-${project.name}`} class="image-style" src={project.imageProject} alt={project.projectAlt} />
+      </a>
+    </div>
+  </header>
+
+  <div class="container-info">
+    <h1>{project.titleProject}</h1>
+    <h4>Description</h4>
+    <p>{project.longDescription}</p>
+  </div>
+
+  <div class="container-tech">
+    <h4>Technologies</h4>
+    <article>
+      {
+        project.techs.map((tech) => (
+          <svg width="40px" height="40px">
+            <use xlink:href={`/skillsIcons.svg#${tech}`}/>
+          </svg>
+        ))
+      }
+    </article>
+  </div>
+
+</article>
+
+<style>
+  .container-info {
+    width: 80dvw;
+    margin: 0px auto 50px;
+
+    & h4 {
+      margin-top: 50px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #7e7efb;
+    font-size: 42px;
+  }
+
+  h4 {
+    color: #8b8bffdc;
+    font-size: 24px;
+  }
+
+  p {
+    text-wrap: wrap;
+    color: #EDEDFC;
+  }
+
+  .container-tech {
+    width: 80dvw;
+    margin: 0 auto 60px;
+
+    & article {
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+    }
+
+    & h4 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .container-image {
+    width: 80dvw;
+    margin: 10px auto 40px;
+  }
+
+  .image-style:hover {
+    transform: scale(0.97);
+    filter: blur(3px);
+    opacity: 0.8;
+  }
+
+  .image-style {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    transition: all ease 0.3s;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  @media (width <= 1170px) {
+    .container-tech {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (width <= 780px) {
+    .image-style {
+      aspect-ratio: 4 / 3;
+    }
+  }
+
+  @media (width <= 665px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  @media (width <= 640px) {
+    .container-image {
+      margin-top: 25px;
+    }
+  }
+
+</style>

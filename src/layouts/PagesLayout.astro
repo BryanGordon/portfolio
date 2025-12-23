@@ -1,13 +1,12 @@
 ---
 import Footer from '../components/Footer.astro'
-import Header from '../components/Header.astro'
-import Navbar from '../components/Navbar.astro'
 import { ClientRouter } from 'astro:transitions';
----
 
+const { title } = Astro.props
+---
 <!doctype html>
-<html lang="en">
-	<head>
+<html>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="Bryan Gordon Portfolio | Front end developer">
@@ -16,17 +15,28 @@ import { ClientRouter } from 'astro:transitions';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@300;400&family=Mulish:wght@300&display=swap" rel="stylesheet">
-    <title>Bryan's Portfolio | Front end Developer</title>
+    <title>Portofolio - {title}</title>
     <ClientRouter />
   </head>
-	<body>
-    <Header />
-    <Navbar />
-    <main>
+  <body>
+    <section>
+      <header>
+        <div class="container-back">
+          <a class="back-icon" href="/">
+            <svg class="back-icon" width="18" height="18">
+              <use xlink:href='/certificateIcons.svg#back-arrow'/>
+            </svg>
+            Volver atras
+          </a>
+        </div>
+      </header>
+
       <slot />
-    </main>
+
+    </section>
     <Footer />
-	</body>
+
+  </body>
 </html>
 
 <style is:global>
@@ -36,7 +46,7 @@ import { ClientRouter } from 'astro:transitions';
     font-family: 'Mulish', sans-serif;
     scroll-behavior: smooth;
   }
-  
+
   body {
     margin: 0;
     background-color: #1b1d18;
@@ -44,32 +54,49 @@ import { ClientRouter } from 'astro:transitions';
     flex-direction: column;
     height: 100dvh;
   }
-  
-  main {
-    margin: 40px;
-  }
 
   section {
     margin-block: 40px;
-  }
-
-   #spacing-section {
-    margin-bottom: 120px;
-  }
-
-  p {
-    color: #EDEDFC;
-    line-height: 1.6;
   }
 
   a {
     text-decoration: none;
   }
 
-  h1 {
-    text-align: center;
-    margin-bottom: 90px;
-    font-size: 42px;
-    color: #ededfce1;
+  .container-back {
+    width: 80dvw;
+    margin: 0 auto;
+    padding-top: 45px;
   }
+
+  .back-icon:hover {
+    color: #EDEDFC;
+
+     & svg{
+      color: #8b8bff;
+    }
+  }
+
+  .back-icon {
+    text-decoration: none;
+    color: #8b8bff;
+    transition: color ease-in-out 0.25s;
+
+    & svg {
+      color: #EDEDFC;
+    }   
+  }
+
+  .back-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  @media (width <= 685px) {
+    .container-back {
+      padding-top: 25px;
+    }
+  }
+
 </style>
+

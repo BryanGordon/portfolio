@@ -88,6 +88,11 @@
     "id": "17",
     "name": "C#",
     "iconName": "/skillsIcons.svg#c#"  
+  },
+  {
+    "id": "18",
+    "name": "Go",
+    "iconName": "/skillsIcons.svg#go"
   }
 
 ]
