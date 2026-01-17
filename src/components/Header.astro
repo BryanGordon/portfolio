@@ -24,6 +24,23 @@ import Linkedin from '../icons/Linkedin.astro'
   </div>
 </header>
 
+<script>
+  import { gsap } from 'gsap'
+  import { SplitText } from 'gsap/SplitText'
+
+  gsap.registerPlugin(SplitText)
+
+  const splitText = new SplitText(".header-info", {
+    type: "lines"
+  })
+
+  gsap.from(splitText.lines, {
+    duration: 3,
+    autoAlpha: 0,
+    y: 5
+  })
+</script>
+
 <style>
   header {
     background: linear-gradient(0deg, rgb(27, 29, 24) 80%, rgba(61, 62, 90, 1) 100%);
