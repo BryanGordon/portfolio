@@ -39,6 +39,9 @@ import Linkedin from '../icons/Linkedin.astro'
     autoAlpha: 0,
     y: 5
   })
+
+  gsap.set("img", {autoAlpha: 0, scale: 0.9, y: 10})
+  gsap.to("img", {autoAlpha: 1, duration: 2, scale: 1, y: 0})
 </script>
 
 <style>
