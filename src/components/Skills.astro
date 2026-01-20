@@ -7,7 +7,7 @@ import skillsIcons from '../mocks/skillsData.json'
     <h1>Skills</h1>
   </header>
 
-  <article>
+  <article class="algo">
     {
       skillsIcons.map((item) => (  
         <div data-title={item.name} class="icon-card">
@@ -19,6 +19,25 @@ import skillsIcons from '../mocks/skillsData.json'
     }
   </article>
 </section>
+
+<script>
+  import { ScrollTrigger } from 'gsap/ScrollTrigger'
+  import gsap from 'gsap'
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  gsap.from(".icon-card", {
+    scrollTrigger: ".algo",
+    duration: 3,
+    autoAlpha: 0,
+    filter: "blur(4px)",
+    stagger: {
+      from: "random",
+      each: 0.2,
+      grid: "auto" 
+    }
+  })
+</script>
 
 <style>
   article {
