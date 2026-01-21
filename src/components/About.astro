@@ -24,6 +24,23 @@
 </section>
 
 <script>
+  import gsap from 'gsap'
+  import { ScrollTrigger } from 'gsap/ScrollTrigger'
+  import { SplitText } from 'gsap/SplitText'
+
+  gsap.registerPlugin(ScrollTrigger, SplitText)
+
+  const text = new SplitText("p", {
+    type: "words"
+  })
+
+  gsap.from(text.words, {
+    autoAlpha: 0,
+    filter: "blur(3px)",
+    duration: 1,
+    stagger: 0.5,
+    scrollTrigger: ".container-about",
+  })
   
 </script>
 
