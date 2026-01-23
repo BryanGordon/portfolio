@@ -27,6 +27,56 @@ import { ClientRouter } from 'astro:transitions';
     </main>
     <Footer />
 	</body>
+  <script>
+    import gsap from 'gsap'
+    import { ScrollTrigger } from 'gsap/ScrollTrigger'
+    import { SplitText } from 'gsap/SplitText'
+
+    gsap.registerPlugin(ScrollTrigger, SplitText)
+
+    const splitTextHeader = new SplitText(".header-info", {
+      type: "lines"
+    })
+    const splitTextAbout = new SplitText(".text-animated", {
+      type: "lines"
+    })
+
+    gsap.set("img", {
+      autoAlpha: 0,
+      scale: 0.9,
+      y: 10,
+      filter: "blur(5px)",
+    })
+
+    gsap.to("img", {
+      autoAlpha: 1,
+      scale: 1,
+      y: 0,
+      filter: "blur(0px)"
+    })
+
+    gsap.from(splitTextHeader.lines, {
+      duration: 2,
+      autoAlpha: 0,
+      stagger: 0.6,
+      y: 5,
+      filter: "blur(5px)",
+      ease: "power3.inOut"
+    })
+
+    gsap.from(splitTextAbout.lines, {
+      scrollTrigger: ".container-about",
+      autoAlpha: 0,
+      filter: "blur(3px)",
+      duration: 2,
+      stagger: 0.3,
+    })
+
+    gsap.from("", {
+      
+    })
+
+  </script>
 </html>
 
 <style is:global>
