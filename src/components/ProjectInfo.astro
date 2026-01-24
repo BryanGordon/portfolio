@@ -26,7 +26,7 @@ const project = Projects[data]
     <article>
       {
         project.techs.map((tech) => (
-          <svg width="40px" height="40px">
+          <svg width="40px" height="40px" class="svg-animated">
             <use xlink:href={`/skillsIcons.svg#${tech}`}/>
           </svg>
         ))
@@ -35,6 +35,21 @@ const project = Projects[data]
   </div>
 
 </article>
+
+<script>
+  import gsap from 'gsap'
+  import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  gsap.from(".svg-animated", {
+    scrollTrigger: ".container-tech",
+    autoAlpha: 0,
+    duration: 3,
+    y: 10,
+  })
+
+</script>
 
 <style>
   .container-info {
@@ -80,16 +95,23 @@ const project = Projects[data]
   .container-image {
     width: 80dvw;
     margin: 10px auto 40px;
+
+    & a {
+      display: inline-flex;
+      justify-content: center;
+      cursor: default;
+    }
   }
 
   .image-style:hover {
     transform: scale(0.97);
     filter: blur(3px);
     opacity: 0.8;
+    cursor: pointer;
   }
 
   .image-style {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 3 / 2;
     object-fit: contain;
     transition: all ease 0.3s;
