@@ -8,3 +8,17 @@ const position = 3
 <PagesLayout title="Bakery 2.0">
   <ProjectInfo data={position}/>
 </PagesLayout>
+
+<script>
+  import gsap from 'gsap'
+  import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  gsap.from(".svg-animated", {
+    scrollTrigger: ".container-tech",
+    autoAlpha: 0,
+    duration: 3,
+    y: 10
+  })
+</script>
