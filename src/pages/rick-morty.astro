@@ -8,3 +8,17 @@ const position = 2
 <PagesLayout title="Rick & Morty page">
   <ProjectInfo data={position}/>
 </PagesLayout>
+
+<script>
+  import gsap from 'gsap'
+  import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  gsap.from(".svg-animated", {
+    scrollTrigger: ".container-tech",
+    autoAlpha: 0,
+    duration: 3,
+    y: 10,
+  })
+</script>
