@@ -19,14 +19,7 @@ import { ClientRouter } from 'astro:transitions';
     <title>Bryan's Portfolio | Front end Developer</title>
     <ClientRouter />
   </head>
-	<body>
-    <Header />
-    <Navbar />
-    <main>
-      <slot />
-    </main>
-    <Footer />
-	</body>
+  
   <script>
     import gsap from 'gsap'
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -86,6 +79,15 @@ import { ClientRouter } from 'astro:transitions';
     })
 
   </script>
+
+	<body>
+    <Header />
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+	</body>
 </html>
 
 <style is:global>
