@@ -34,6 +34,10 @@ import { ClientRouter } from 'astro:transitions';
       type: "lines"
     })
 
+    gsap.set(".hidden-animation", {
+      visibility: "visible"
+    })
+
     gsap.set("img", {
       autoAlpha: 0,
       scale: 0.9,
@@ -116,6 +120,10 @@ import { ClientRouter } from 'astro:transitions';
 
    #spacing-section {
     margin-bottom: 120px;
+  }
+
+  .hidden-animation {
+    visibility: hidden;
   }
 
   p {
