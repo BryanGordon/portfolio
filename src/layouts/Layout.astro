@@ -4,23 +4,7 @@ import Header from '../components/Header.astro'
 import Navbar from '../components/Navbar.astro'
 import { ClientRouter } from 'astro:transitions';
 ---
-
-<!doctype html>
-<html lang="en">
-	<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Bryan Gordon Portfolio | Front end developer">
-    <meta property="og:description" content="React.js developer">
-    <link rel="icon" type="image" href="/dev-portfolio.webp" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@300;400&family=Mulish:wght@300&display=swap" rel="stylesheet">
-    <title>Bryan's Portfolio | Front end Developer</title>
-    <ClientRouter />
-  </head>
-  
-  <script>
+<script>
     import gsap from 'gsap'
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
     import { SplitText } from 'gsap/SplitText'
@@ -82,7 +66,21 @@ import { ClientRouter } from 'astro:transitions';
       }
     })
 
-  </script>
+</script>
+<!doctype html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Bryan Gordon Portfolio | Front end developer">
+    <meta property="og:description" content="React.js developer">
+    <link rel="icon" type="image" href="/dev-portfolio.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@300;400&family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <title>Bryan's Portfolio | Front end Developer</title>
+    <ClientRouter />
+  </head>
 
 	<body>
     <Header />
@@ -122,7 +120,7 @@ import { ClientRouter } from 'astro:transitions';
     margin-bottom: 120px;
   }
 
-  .hidden-animation {
+  .hidden-animation::after {
     visibility: hidden;
   }
 
