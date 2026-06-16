@@ -27,18 +27,46 @@ import Layout from '../layouts/Layout.astro'
       </div>
 
       <div class="container-personal">
-        <strong>Address: </strong>
-        <p class='answer'>Cotacachi - Imbabura - Ecuador</p>
+        <strong>Email: </strong>
+          <p class='answer highlight'>bryanbge92@gmail.com / bryanbge98@outlook.com</p>
       </div>
 
       <div class="container-personal">
-        <strong>Email: </strong>
-          <p class='answer'>bryanbge92@gmail.com / bryanbge98@outlook.com</p>
+        <strong>Address: </strong>
+        <p class='answer'>Cotacachi - Imbabura - Ecuador</p>
       </div>
     </article>
 
     <article class="containers-info">
       <h2>Certifications</h2>
+      
+      <div>
+        <h3>
+          Midudev Academy
+          <svg width="55" height="55">
+            <use xlink:href="/certificateIcons.svg#udemy" />
+          </svg>
+        </h3>
+
+        <ul>
+          <li>
+            Astro and headless cms <strong>(8.5 hours) [2020]</strong>
+          </li>
+          <li>
+            Utility types (TypeScript)<strong>(5.5 hours) [2021]</strong>
+          </li>
+          <li>
+            HTML <strong>(1.5 hours) [2024]</strong>
+          </li>
+          <li>
+            CSS <strong>(6 hours) [2025]</strong>
+          </li>
+          <li>
+            Svelte desde cero 
+            <strong>(18 hours) [2025]</strong>
+          </li>
+        </ul>
+      </div>
 
       <div>
         <h3>
@@ -240,6 +268,10 @@ import Layout from '../layouts/Layout.astro'
     & li {
       line-height: 1.6;
     }
+  }
+
+  .highlight {
+    font-weight: 600;
   }
 
   @media (width < 1080px) {
