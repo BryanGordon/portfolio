@@ -10,18 +10,24 @@ import { ClientRouter } from 'astro:transitions';
     import { SplitText } from 'gsap/SplitText'
 
     gsap.registerPlugin(ScrollTrigger, SplitText)
-
+    /*
     const splitTextHeader = new SplitText(".header-info", {
       type: "lines"
     })
+    */
     const splitTextAbout = new SplitText(".text-animated", {
       type: "lines"
     })
-
-    gsap.set(".hidden-animation", {
-      visibility: "visible"
+    /*
+    gsap.from(".hidden-animation", {
+      visibility: "hidden",
     })
 
+    gsap.to(".hidden-animation", {
+      visibility: "visible"
+    })
+    */
+    /*
     gsap.set("img", {
       autoAlpha: 0,
       scale: 0.9,
@@ -36,7 +42,8 @@ import { ClientRouter } from 'astro:transitions';
       y: 0,
       filter: "blur(0px)"
     })
-
+    */
+   /*
     gsap.from(splitTextHeader.lines, {
       duration: 2,
       autoAlpha: 0,
@@ -45,6 +52,7 @@ import { ClientRouter } from 'astro:transitions';
       filter: "blur(5px)",
       ease: "power3.inOut"
     })
+    */
 
     gsap.from(splitTextAbout.lines, {
       scrollTrigger: ".container-about",
@@ -56,7 +64,7 @@ import { ClientRouter } from 'astro:transitions';
 
     gsap.from(".icon-card", {
       scrollTrigger: ".skills-container",
-      duration: 3,
+      duration: 2,
       autoAlpha: 0,
       filter: "blur(2px)",
       stagger: {
