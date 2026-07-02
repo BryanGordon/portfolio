@@ -1,0 +1,32 @@
+[
+  {
+    "name": "algo",
+    "icon": "midudev",
+    "sizeIcon": 35,
+    "courses": [
+      {
+        "name": "algo2",
+        "year": 2030
+      },
+      {
+        "name": "algo3",
+        "year": 2030
+      }
+    ],
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": ""
+  },
+  {
+    "name": "algo4",
+    "icon": "udemy",
+    "sizeIcon": 40,
+    "courses": [
+      {
+        "name": "algo10",
+        "year": 2010
+      }
+    ],
+    "titleSpacing": "",
+    "containerSpacing": "content-wrap-text"
+  }
+]
