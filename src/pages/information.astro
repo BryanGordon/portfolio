@@ -1,5 +1,7 @@
 ---
+import Certifications from '../components/Certifications.astro'
 import Layout from '../layouts/Layout.astro'
+import CertificationsData from '../mocks/certifications.json'
 
 ---
 <Layout>
@@ -39,7 +41,12 @@ import Layout from '../layouts/Layout.astro'
 
     <article class="containers-info">
       <h2>Certifications</h2>
+      {CertificationsData.map((certification) => (
+        <Certifications name={certification.name} icon={certification.icon} sizeIcon={certification.sizeIcon} courses={certification.courses} titleSpacing={certification.titleSpacing} containerSpacing={certification.containerSpacing}/>
+      ))
       
+      }
+      {/*       
       <div>
         <h3>
           Midudev Academy
@@ -183,7 +190,7 @@ import Layout from '../layouts/Layout.astro'
           </li>
         </ul>
       </div>
-
+*/}
       
     </article>
    
