@@ -1,0 +1,45 @@
+---
+interface Props {
+  name: string,
+  icon: string,
+  sizeIcon: number,
+  courses: 
+    {
+      name: string,
+      year: number
+   }[],
+  titleSpacing: string,
+  containerSpacing: string
+}
+
+const platforms: Props = Astro.props
+---
+
+<div class={platforms.containerSpacing}>
+  <h3 class={platforms.titleSpacing}>
+    {platforms.name}
+    <svg width="35" height="35">
+      <use xlink:href=`/certificateIcons.svg#${platforms.icon}` />
+    </svg>
+  </h3>
+  <ul>
+    {
+      platforms.courses.map((course) => (
+        <li>
+          {course.name} <strong>{course.year}</strong>
+        </li>
+      ))
+    }
+    {/* 
+    <li>
+      Utility types en TypeScript <strong>[2026]</strong>
+    </li>
+    <li>
+      HTML desde cero <strong>[2026]</strong>
+    </li>
+    <li>
+      CSS desde cero <strong>[2026]</strong>
+    </li>
+    */}
+  </ul>
+</div>
