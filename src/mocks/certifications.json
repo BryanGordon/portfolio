@@ -1,32 +1,134 @@
 [
   {
-    "name": "algo",
+    "name": "Midudev Academy",
     "icon": "midudev",
     "sizeIcon": 35,
     "courses": [
       {
-        "name": "algo2",
-        "year": 2030
+        "name": "Astro y Headless CMS",
+        "year": 2026
       },
       {
-        "name": "algo3",
-        "year": 2030
+        "name": "Utily types en TypeScript",
+        "year": 2026
+      },
+      {
+        "name": "HTML desde cero",
+        "year": 2026
+      },
+      {
+        "name": "CSS desde cero",
+        "year": 2026
+      }
+    ],
+    "titleSpacing": "",
+    "containerSpacing": ""
+  },
+  {
+    "name": "Udemy",
+    "icon": "udemy",
+    "sizeIcon": 55,
+    "courses": [
+      {
+        "name": "Programa tus primeros juegos HTML5 con JavaScript",
+        "year": 2020
+      },
+      {
+        "name": "Aprende a desarrollar videojuegos con Unity 2021",
+        "year": 2021
+      },
+      {
+        "name": "TailwindCSS from A to Z: Master TailwindCSS Quickly",
+        "year": 2024
+      },
+      {
+        "name": "Aprende Vue + Firebase actualizado 2020",
+        "year": 2025
+      },
+      {
+        "name": "Svelte desde cero",
+        "year": 2025
       }
     ],
     "titleSpacing": "spacing-certifications",
     "containerSpacing": ""
   },
   {
-    "name": "algo4",
-    "icon": "udemy",
+    "name": "University",
+    "icon": "university",
+    "sizeIcon": 30,
+    "courses": [
+      {
+        "name": "V Jornadas académicas internacionales y I congreso internacional de ciencias de la computación",
+        "year": 2018
+      },
+      {
+        "name": "Encuentro internacional tendencias de la inteligencia artificial",
+        "year": 2020
+      },
+      {
+        "name": "Medios digitales",
+        "year": 2020
+      }
+    ],
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": "content-wrap-text"
+  },
+  {
+    "name": "Cisco",
+    "icon": "cisco",
+    "sizeIcon": 45,
+    "courses": [
+      {
+        "name": "Introducción a la Seguridad Cibernética de Cisco Networking Academy",
+        "year": 2020
+      }
+    ],
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": ""
+  },
+  {
+    "name": "Big School",
+    "icon": "big-school",
     "sizeIcon": 40,
     "courses": [
       {
-        "name": "algo10",
-        "year": 2010
+        "name": "SEO para IA y Google",
+        "year": 2026
+      },
+      {
+        "name": "Desarrollo con IA: Programa con Agentes",
+        "year": 2026
       }
     ],
-    "titleSpacing": "",
-    "containerSpacing": "content-wrap-text"
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": ""
+  },
+  {
+    "name": "Platzi",
+    "icon": "platzi",
+    "sizeIcon": 28,
+    "courses": [
+      {
+        "name": "Testing de videojuegos",
+        "year": 2021
+      }
+    ],
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": ""
+  },
+  {
+    "name": "Domestika",
+    "icon": "domestika",
+    "sizeIcon": 27,
+    "courses": [
+      {
+        "name": "Introducción a Unity para videojuegos 2D",
+        "year": 2021
+      }
+    ],
+    "titleSpacing": "spacing-certifications",
+    "containerSpacing": ""
   }
+
 ]
