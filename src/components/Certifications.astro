@@ -18,7 +18,7 @@ const platforms: Props = Astro.props
 <div class={platforms.containerSpacing}>
   <h3 class={platforms.titleSpacing}>
     {platforms.name}
-    <svg width="35" height="35">
+    <svg width={platforms.sizeIcon} height={platforms.sizeIcon}>
       <use xlink:href=`/certificateIcons.svg#${platforms.icon}` />
     </svg>
   </h3>
@@ -26,7 +26,7 @@ const platforms: Props = Astro.props
     {
       platforms.courses.map((course) => (
         <li>
-          {course.name} <strong>{course.year}</strong>
+          {course.name} <strong>[{course.year}]</strong>
         </li>
       ))
     }
