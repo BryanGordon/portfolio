@@ -41,165 +41,23 @@ import CertificationsData from '../mocks/certifications.json'
 
     <article class="containers-info">
       <h2>Certifications</h2>
-      {CertificationsData.map((certification) => (
-        <Certifications name={certification.name} icon={certification.icon} sizeIcon={certification.sizeIcon} courses={certification.courses} titleSpacing={certification.titleSpacing} containerSpacing={certification.containerSpacing}/>
-      ))
-      
+      {
+        CertificationsData.map((certification) => (
+          <Certifications 
+          name={certification.name} 
+          icon={certification.icon} 
+          sizeIcon={certification.sizeIcon} 
+          courses={certification.courses} 
+          titleSpacing={certification.titleSpacing} 
+          containerSpacing={certification.containerSpacing}
+          />
+        ))
       }
-      {/*       
-      <div>
-        <h3>
-          Midudev Academy
-          <svg width="35" height="35">
-            <use xlink:href="/certificateIcons.svg#midudev" />
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            Astro y headless CMS <strong>[2026]</strong>
-          </li>
-          <li>
-            Utility types en TypeScript <strong>[2026]</strong>
-          </li>
-          <li>
-            HTML desde cero <strong>[2026]</strong>
-          </li>
-          <li>
-            CSS desde cero <strong>[2026]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="spacing-certifications">
-          Udemy
-          <svg width="55" height="55">
-            <use xlink:href="/certificateIcons.svg#udemy" />
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            Programa tus primeros juegos HTML5 con Javascript <strong>[2020]</strong>
-          </li>
-          <li>
-            Aprende a desarrollar videojuegos con unity 2021 <strong>[2021]</strong>
-          </li>
-          <li>
-            TailwindCSS from A to Z: Master TailwindCSS Quickly 
-            <strong>[2024]</strong>
-          </li>
-          <li>
-            Aprende Vue + Firebase Actualizado 2020 
-            <strong>[2025]</strong>
-          </li>
-          <li>
-            Svelte desde cero 
-            <strong>[2025]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div class="content-wrap-text">
-        <h3 class="spacing-certifications">
-          University
-          <svg width="30" height="30">
-            <use xlink:href="/certificateIcons.svg#university" />
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            V Jornadas académicas internacionales y I congreso internacional de ciencias de la computación 
-            <strong>[2018]</strong>
-          </li>
-          <li>
-            Encuentro internacional tendencias de la inteligencia artificial 
-            <strong>[2020]</strong>
-          </li>
-          <li>
-            Medios digitales 
-            <strong>[2020]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="spacing-certifications">
-          Cisco
-          <svg width="45" height="45">
-            <use xlink:href="/certificateIcons.svg#cisco" />
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            Introducción a la Seguridad Cibernética de Cisco Networking Academy 
-            <strong>[2020]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="spacing-certifications">
-          Big School
-          <svg width="40" height="40">
-            <use xlink:href="/certificateIcons.svg#big-school" />
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            SEO para IA y Google <strong>[2026]</strong>
-          </li>
-          <li>
-            Desarrollo con IA Programa con Agentes <strong>[2026]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="spacing-certifications">
-          Platzi
-          <svg width="28" height="28">
-            <use xlink:href="/certificateIcons.svg#platzi"/>
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            Testing de videojuegos 
-            <strong>[2021]</strong>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="spacing-certifications">
-          Domestika
-          <svg width="27" height="27">
-            <use xlink:href="/certificateIcons.svg#domestika"/>
-          </svg>
-        </h3>
-
-        <ul>
-          <li>
-            Introducción a Unity para videojuegos 2D 
-            <strong>[2021]</strong>
-          </li>
-        </ul>
-      </div>
-*/}
-      
     </article>
-   
   </section>
 </Layout>
 
 <style>
-
-  
   section {
     width: 85%;
     margin: 0 auto;
